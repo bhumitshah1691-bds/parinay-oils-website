@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 export default function AboutPage() {
   return (
-    <div>
+    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
         {/* SECTION 1 — ORIENTATION */}
-        <section style={{ padding: '2rem', borderBottom: '1px solid #eee' }}>
+        <section style={{ paddingTop: '2rem', paddingBottom: '2rem', marginBottom: '2rem', borderBottom: '1px solid #e5e5e5' }}>
           {/* Breadcrumb Navigation */}
           <nav style={{ marginBottom: '1rem', fontSize: '0.875rem', color: '#666' }}>
             <Link href="/" style={{ color: '#666', textDecoration: 'none' }}>Home</Link>
@@ -24,7 +24,7 @@ export default function AboutPage() {
         </section>
 
         {/* SECTION 2 — INFORMATION ARCHITECTURE */}
-        <section style={{ display: 'flex', padding: '2rem', gap: '3rem' }}>
+        <section style={{ display: 'flex', paddingTop: '1rem', paddingBottom: '3rem', gap: '4rem' }}>
           {/* SIDEBAR (Left) */}
           <aside style={{ width: '250px', flexShrink: 0 }}>
             {/* Sub-navigation (section anchors) */}
@@ -169,7 +169,7 @@ export default function AboutPage() {
         </section>
 
         {/* SECTION 3 — RELATED CONTEXT */}
-        <section style={{ padding: '2rem', borderTop: '1px solid #eee', backgroundColor: '#f9f9f9' }}>
+        <section style={{ padding: '2rem 0', marginTop: '1rem', borderTop: '1px solid #e5e5e5', backgroundColor: '#fafafa' }}>
           <h2 style={{ margin: '0 0 1rem 0', fontSize: '1.25rem', fontWeight: '600' }}>
             Related Information
           </h2>

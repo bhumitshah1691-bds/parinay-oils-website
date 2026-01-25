@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 export default function ApplicationsPage() {
   return (
-    <div>
+    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
         {/* SECTION 1 — ORIENTATION */}
-        <section style={{ marginBottom: '2rem' }}>
+        <section style={{ paddingTop: '2rem', paddingBottom: '2rem', marginBottom: '2rem', borderBottom: '1px solid #e5e5e5' }}>
           {/* Breadcrumb Navigation */}
           <nav style={{ marginBottom: '1rem', fontSize: '0.875rem', color: '#666' }}>
             <Link href="/" style={{ color: '#666', textDecoration: 'none' }}>Home</Link>
@@ -22,12 +22,12 @@ export default function ApplicationsPage() {
         </section>
 
         {/* SECTION 2 — INFORMATION ARCHITECTURE */}
-        <section style={{ display: 'flex', gap: '3rem', marginBottom: '3rem' }}>
+        <section style={{ display: 'flex', gap: '4rem', paddingTop: '1rem', paddingBottom: '3rem' }}>
           {/* SIDEBAR */}
           <aside style={{ width: '250px', flexShrink: 0 }}>
             {/* Sub-navigation */}
             <nav style={{ marginBottom: '2rem' }}>
-              <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem', borderBottom: '1px solid #ccc', paddingBottom: '0.5rem' }}>
+              <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem', borderBottom: '1px solid #e5e5e5', paddingBottom: '0.5rem' }}>
                 On This Page
               </h3>
               <ul style={{ listStyle: 'none', margin: 0, padding: 0 }}>
@@ -118,7 +118,7 @@ export default function ApplicationsPage() {
         </section>
 
         {/* SECTION 3 — RELATED CONTEXT */}
-        <section style={{ borderTop: '1px solid #ccc', paddingTop: '2rem' }}>
+        <section style={{ borderTop: '1px solid #e5e5e5', marginTop: '1rem', padding: '2rem 0', backgroundColor: '#fafafa' }}>
           <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>Related Information</h3>
           <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', gap: '2rem' }}>
             <li>

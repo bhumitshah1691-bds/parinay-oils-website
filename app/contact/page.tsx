@@ -3,9 +3,9 @@ import InquiryForm from './InquiryForm'
 
 export default function ContactPage() {
   return (
-    <div>
+    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
         {/* SECTION 1 — ORIENTATION */}
-        <section style={{ padding: '2rem', borderBottom: '1px solid #eee' }}>
+        <section style={{ paddingTop: '2rem', paddingBottom: '2rem', marginBottom: '2rem', borderBottom: '1px solid #e5e5e5' }}>
           {/* Breadcrumb Navigation */}
           <nav style={{ marginBottom: '1rem', fontSize: '0.875rem', color: '#666' }}>
             <Link href="/" style={{ color: '#666', textDecoration: 'none' }}>Home</Link>
@@ -20,7 +20,7 @@ export default function ContactPage() {
         </section>
 
         {/* SECTION 2 — CORPORATE HEADQUARTERS */}
-        <section style={{ display: 'flex', padding: '2rem', gap: '3rem' }}>
+        <section style={{ display: 'flex', paddingTop: '1rem', paddingBottom: '3rem', gap: '4rem' }}>
           {/* LEFT — Address & Hours */}
           <div style={{ flex: 1 }}>
             <h2 style={{ margin: '0 0 1.5rem 0', fontSize: '1.5rem', fontWeight: '600' }}>
@@ -126,7 +126,7 @@ export default function ContactPage() {
         </section>
 
         {/* SECTION 3 — INQUIRY INTERFACE */}
-        <section style={{ padding: '2rem', backgroundColor: '#f9f9f9', borderTop: '1px solid #eee' }}>
+        <section style={{ padding: '2.5rem 0 3rem 0', backgroundColor: '#fafafa', marginTop: '1rem', borderTop: '1px solid #e5e5e5' }}>
           <h2 style={{ margin: '0 0 0.5rem 0', fontSize: '1.5rem', fontWeight: '600' }}>
             Inquiry
           </h2>

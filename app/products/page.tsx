@@ -2,22 +2,26 @@ import Link from 'next/link'
 
 export default function ProductsPage() {
   return (
-    <div>
-      {/* Breadcrumb */}
-      <nav style={{ marginBottom: '1rem', fontSize: '0.875rem', color: '#666' }}>
-        <Link href="/" style={{ color: '#666' }}>Home</Link>
-        {' > '}
-        <span>Products</span>
-      </nav>
+    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
+      {/* SECTION 1 — ORIENTATION */}
+      <section style={{ paddingTop: '2rem', paddingBottom: '2rem', marginBottom: '2rem', borderBottom: '1px solid #e5e5e5' }}>
+        {/* Breadcrumb */}
+        <nav style={{ marginBottom: '1rem', fontSize: '0.875rem', color: '#666' }}>
+          <Link href="/" style={{ color: '#666' }}>Home</Link>
+          {' > '}
+          <span>Products</span>
+        </nav>
 
-      {/* Page Title */}
-      <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>Products</h1>
-      <p style={{ marginBottom: '3rem', color: '#666' }}>
-        Parinay Oils supplies castor-based products for industrial and commercial applications.
-      </p>
+        {/* Page Title */}
+        <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>Products</h1>
+        <p style={{ margin: 0, color: '#666', maxWidth: '800px' }}>
+          Parinay Oils supplies castor-based products for industrial and commercial applications.
+        </p>
+      </section>
 
-      {/* Products List */}
-      <div style={{ display: 'flex', gap: '2rem' }}>
+      {/* SECTION 2 — Products List */}
+      <section style={{ paddingBottom: '3rem' }}>
+        <div style={{ display: 'flex', gap: '2.5rem' }}>
         {/* Castor Oil Card */}
         <div
           style={{
@@ -125,7 +129,8 @@ export default function ProductsPage() {
             View Product Details
           </Link>
         </div>
-      </div>
+        </div>
+      </section>
     </div>
   )
 }

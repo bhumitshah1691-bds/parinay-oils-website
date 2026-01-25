@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 export default function CastorOilPage() {
   return (
-    <div>
+    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
         {/* SECTION 1 — PRODUCT IDENTIFICATION */}
-        <section style={{ marginBottom: '3rem' }}>
+        <section style={{ paddingTop: '2rem', paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
           {/* Breadcrumb */}
           <nav style={{ marginBottom: '1rem', fontSize: '0.875rem', color: '#666' }}>
             <Link href="/" style={{ color: '#666' }}>Home</Link>
@@ -55,7 +55,7 @@ export default function CastorOilPage() {
         </section>
 
         {/* SECTION 2 — TECHNICAL SPECIFICATIONS */}
-        <section style={{ marginBottom: '3rem' }}>
+        <section style={{ paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
           <div style={{ display: 'flex', gap: '2rem' }}>
             {/* LEFT CONTENT — 2/3 */}
             <div style={{ flex: 2 }}>
@@ -150,7 +150,7 @@ export default function CastorOilPage() {
         </section>
 
         {/* SECTION 3 — OPERATIONAL CONTEXT (For Castor Oil: Manufacturing) */}
-        <section style={{ marginBottom: '3rem', padding: '1.5rem', backgroundColor: '#f9fafb', borderRadius: '8px' }}>
+        <section style={{ marginBottom: '2.5rem', padding: '2rem', backgroundColor: '#fafafa', borderRadius: '8px' }}>
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Manufacturing Process</h2>
           <p style={{ marginBottom: '1rem', lineHeight: 1.6 }}>
             Castor Oil is manufactured at our facility in Ahmedabad, Gujarat, India using a process focused on consistency, safety, and suitability for industrial and commercial applications.
@@ -168,7 +168,7 @@ export default function CastorOilPage() {
         </section>
 
         {/* SECTION 4 — LOGISTICS */}
-        <section style={{ marginBottom: '3rem' }}>
+        <section style={{ paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Logistics</h2>
           
           <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
@@ -204,7 +204,7 @@ export default function CastorOilPage() {
         </section>
 
         {/* SECTION 5 — INQUIRY (No form per instructions) */}
-        <section style={{ marginBottom: '3rem', padding: '1.5rem', backgroundColor: '#f0f9ff', borderRadius: '8px' }}>
+        <section style={{ marginBottom: '3rem', padding: '2rem', backgroundColor: '#f0f9ff', borderRadius: '8px' }}>
           <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Inquiry</h2>
           <p style={{ marginBottom: '1rem', lineHeight: 1.6 }}>
             For product specifications, pricing, samples, or export-related inquiries, please contact Parinay Oils through the official inquiry channel.

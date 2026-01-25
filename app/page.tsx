@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div style={{ padding: '0 2rem' }}>
+    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
         {/* SECTION 1 — COMPANY IDENTIFICATION */}
-        <section style={{ marginBottom: '3rem', paddingBottom: '2rem', borderBottom: '1px solid #eee' }}>
+        <section style={{ paddingTop: '2rem', paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
           <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>
             Company Identification
           </h1>
@@ -15,7 +15,7 @@ export default function Home() {
         </section>
 
         {/* SECTION 2 — CORE PRODUCTS */}
-        <section style={{ marginBottom: '3rem', paddingBottom: '2rem', borderBottom: '1px solid #eee' }}>
+        <section style={{ paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
           <h2 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>
             Core Products
           </h2>
@@ -46,7 +46,7 @@ export default function Home() {
         </section>
 
         {/* SECTION 3 — MANUFACTURING & QUALITY SNAPSHOT */}
-        <section style={{ marginBottom: '3rem', paddingBottom: '2rem', borderBottom: '1px solid #eee' }}>
+        <section style={{ paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
           <h2 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>
             Manufacturing & Quality Snapshot
           </h2>
@@ -59,7 +59,7 @@ export default function Home() {
         </section>
 
         {/* SECTION 4 — APPLICATIONS SNAPSHOT */}
-        <section style={{ marginBottom: '3rem', paddingBottom: '2rem', borderBottom: '1px solid #eee' }}>
+        <section style={{ paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
           <h2 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>
             Applications Snapshot
           </h2>
@@ -81,7 +81,7 @@ export default function Home() {
         </section>
 
         {/* SECTION 5 — CREDIBILITY & TRADE READINESS */}
-        <section style={{ marginBottom: '3rem', paddingBottom: '2rem', borderBottom: '1px solid #eee' }}>
+        <section style={{ paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
           <h2 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>
             Credibility & Trade Readiness
           </h2>
@@ -94,7 +94,7 @@ export default function Home() {
         </section>
 
         {/* SECTION 6 — INQUIRY */}
-        <section style={{ marginBottom: '2rem' }}>
+        <section style={{ paddingBottom: '3rem' }}>
           <h2 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>
             Inquiry
           </h2>

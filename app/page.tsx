@@ -1,12 +1,6 @@
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-
 export default function Home() {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <Header />
-
-      <main style={{ flex: 1, padding: '2rem 4rem' }}>
+    <div style={{ padding: '0 2rem' }}>
         {/* SECTION 1 — COMPANY IDENTIFICATION */}
         <section style={{ marginBottom: '3rem', paddingBottom: '2rem', borderBottom: '1px solid #eee' }}>
           <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>
@@ -111,9 +105,6 @@ export default function Home() {
             Detailed responses are provided based on inquiry scope and relevance.
           </p>
         </section>
-      </main>
-
-      <Footer />
     </div>
   )
 }

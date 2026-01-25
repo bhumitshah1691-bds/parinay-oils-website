@@ -1,13 +1,8 @@
 import Link from 'next/link'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export default function ApplicationsPage() {
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <Header />
-
-      <main style={{ flex: 1, padding: '2rem' }}>
+    <div>
         {/* SECTION 1 — ORIENTATION */}
         <section style={{ marginBottom: '2rem' }}>
           {/* Breadcrumb Navigation */}
@@ -143,9 +138,6 @@ export default function ApplicationsPage() {
             </li>
           </ul>
         </section>
-      </main>
-
-      <Footer />
     </div>
   )
 }

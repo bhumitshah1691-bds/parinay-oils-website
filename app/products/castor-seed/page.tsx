@@ -1,13 +1,8 @@
 import Link from 'next/link'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export default function CastorSeedPage() {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <Header />
-
-      <main style={{ flex: 1, padding: '2rem' }}>
+    <div>
         {/* SECTION 1 — PRODUCT IDENTIFICATION */}
         <section style={{ marginBottom: '3rem' }}>
           {/* Breadcrumb */}
@@ -230,9 +225,6 @@ export default function CastorSeedPage() {
             Contact Us
           </Link>
         </section>
-      </main>
-
-      <Footer />
     </div>
   )
 }

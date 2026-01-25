@@ -1,13 +1,8 @@
 import Link from 'next/link'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export default function InsightsPage() {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <Header />
-
-      <main style={{ flex: 1 }}>
+    <div>
         {/* SECTION 1 — ORIENTATION */}
         <section style={{ padding: '2rem', borderBottom: '1px solid #eee' }}>
           {/* Breadcrumb Navigation */}
@@ -170,9 +165,6 @@ export default function InsightsPage() {
             </li>
           </ul>
         </section>
-      </main>
-
-      <Footer />
     </div>
   )
 }

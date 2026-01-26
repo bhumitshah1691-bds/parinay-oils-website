@@ -1,0 +1,32 @@
+# Phase 10 — Visual & UX System
+## 02_BRAND_TONE_UI
+
+### Brand Posture
+- Serious
+- Professional
+- Export-oriented
+- Compliance-aware
+
+### UI Personality
+- Quiet confidence
+- Minimal but not empty
+- Structured, not decorative
+
+### Formality Level
+- Formal language
+- No conversational tone
+- No storytelling flourishes
+
+### Density Preference
+- Medium–low density
+- Clear separation between sections
+- Comfortable reading without scrolling fatigue
+
+### Modern vs Conservative
+- Visually modern
+- Behaviorally conservative
+- No experimental patterns
+
+### B2B Bias
+- Designed for evaluation, not persuasion
+- Supports scanning, verification, and comparison

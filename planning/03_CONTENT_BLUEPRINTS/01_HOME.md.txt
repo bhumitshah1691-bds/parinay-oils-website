@@ -1,0 +1,75 @@
+HOME — CONTENT BLUEPRINT
+
+H1
+- Company identity + core offering
+- Manufacturing-first positioning with clear trading distinction
+
+SECTION 1 — ABOVE THE FOLD
+H2: What Parinay Oils Does
+- One-line definition of business scope
+- Manufacturing and trading clarity
+Evidence Required:
+- Location (Ahmedabad, Gujarat)
+- Core offerings: Castor Oil and Castor Seed
+Visual:
+- Real facility, processing, or handling imagery
+Must NOT Include:
+- Marketing slogans
+- Superlatives
+
+SECTION 2 — CORE PRODUCTS
+H2: Products Overview
+H3: Castor Oil
+H3: Castor Seed
+Evidence Required:
+- Clear distinction between processed product (Castor Oil) and agricultural commodity (Castor Seed)
+Visual:
+- Product-context imagery showing oil processing and raw seed handling
+Must NOT Include:
+- Technical specs
+- Pricing
+
+SECTION 3 — MANUFACTURING & QUALITY
+H2: Manufacturing & Quality Discipline
+Evidence Required:
+- Process-driven positioning for Castor Oil
+- Quality control emphasis
+- Clear separation between manufacturing (oil) and trading (seed)
+Visual:
+- Process diagram or plant imagery
+Must NOT Include:
+- Trade secrets
+- Detailed SOPs
+
+SECTION 4 — APPLICATIONS
+H2: Industries Served
+H3: Industrial
+H3: Pharmaceutical & Cosmetic
+H3: Lubricants, Paints & Coatings
+Evidence Required:
+- Clear mapping of Castor Oil properties to use-cases
+Visual:
+- Industry-context visuals
+Must NOT Include:
+- Client names
+- Case studies
+
+SECTION 5 — CREDIBILITY SIGNALS
+H2: Compliance & Standards
+Evidence Required:
+- Certifications existence (no logos yet)
+- Export orientation
+Visual:
+- Minimal icons or documentation visuals
+Must NOT Include:
+- Claims without proof
+
+SECTION 6 — CONTACT PATH
+H2: Initiate Business Inquiry
+Evidence Required:
+- Clear navigation to Contact / Inquiry
+Visual:
+- None or minimal
+Must NOT Include:
+- Sales copy
+- Urgency language

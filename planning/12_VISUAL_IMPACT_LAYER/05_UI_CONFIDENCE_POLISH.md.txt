@@ -1,0 +1,101 @@
+# Phase 12 — Visual Impact Layer
+## 05_UI_CONFIDENCE_POLISH
+
+### Objective
+Introduce subtle UI cues that signal completion, confidence, and professionalism without appearing flashy or decorative.
+
+These elements should be felt more than noticed.
+
+---
+
+### Button System
+
+Primary Buttons:
+- Solid brand green
+- Clear rectangular shape
+- Confident size (not small, not oversized)
+- Consistent usage across site
+
+Rules:
+- One primary button per section
+- No gradient or glossy effects
+- No animated icons inside buttons
+
+---
+
+### Secondary Actions
+
+Secondary actions (e.g. document links):
+- Text links or subtle outlined buttons
+- Clearly labeled as secondary
+- Never visually compete with primary CTAs
+
+---
+
+### Hover & Interaction Feedback
+
+Allowed:
+- Subtle color darkening/lightening on hover
+- Minimal transition timing
+
+Forbidden:
+- Bounce effects
+- Scale animations
+- Glow or shadow pop-ups
+
+Interaction should feel calm and deliberate.
+
+---
+
+### Dividers & Separators
+
+Allowed:
+- Thin lines
+- Spacing-based separation
+- Subtle background changes
+
+Forbidden:
+- Decorative separators
+- Icons used as dividers
+- Heavy visual breaks
+
+---
+
+### Typography Finishing
+
+- Headings must maintain consistent spacing
+- Avoid overly tight line spacing
+- Maintain hierarchy clarity across all pages
+
+No typography experimentation allowed at this stage.
+
+---
+
+### Consistency Rule
+
+The same UI behaviors must apply:
+- Across all pages
+- Across all sections
+- Across all device widths (desktop-first)
+
+No one-off styling.
+
+---
+
+### Success Criteria
+
+The site should feel:
+- Calm
+- Finished
+- Confident
+- Serious
+
+Visitors should sense effort and investment without distraction.
+
+---
+
+### Guardrails
+
+- No animations added outside defined hover behavior
+- No stylistic elements that conflict with Phase 12 goals
+- UI polish must support content, not overpower it

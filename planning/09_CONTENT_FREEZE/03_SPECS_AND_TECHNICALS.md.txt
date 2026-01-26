@@ -1,0 +1,88 @@
+# Phase 9.5 — Content & Asset Freeze
+## 03_SPECS_AND_TECHNICALS
+
+This file defines how technical specifications are presented on the website.
+
+The website does NOT publish numeric or guaranteed specifications.
+Specifications are shared only through inquiry-based documentation.
+
+---
+
+## Specification Philosophy
+
+Technical details vary based on:
+- Buyer requirements
+- Application context
+- Contractual agreement
+
+The website presents specification structure only, not confirmed values.
+
+---
+
+## Castor Oil — Specification Structure
+
+The following parameters are commonly referenced during buyer evaluation:
+
+- Appearance
+- Odour
+- Density
+- Viscosity
+- Acid Value
+- Moisture Content
+- Purity Level
+
+Numeric values for these parameters are:
+- Buyer-specific
+- Application-dependent
+- Shared through official documents upon inquiry
+
+---
+
+## Castor Seed — Specification Structure
+
+The following parameters are typically referenced for sourcing and supply:
+
+- Seed Grade
+- Moisture Content
+- Foreign Matter
+- Oil Content
+- Packaging Format
+
+All parameters are:
+- Subject to sourcing conditions
+- Confirmed at the time of supply
+
+---
+
+## Website Presentation Rule
+
+On all product pages, include the statement:
+
+“Detailed specifications and technical data are available on request.”
+
+---
+
+## Document Reference Rule
+
+Generic technical overview documents may be linked for buyer orientation.
+These documents are:
+- Indicative only
+- Non-binding
+- Not certificates or guarantees
+
+---
+
+## Forbidden Actions
+
+- No numeric specification values
+- No implied standards (ASTM, ISO, BIS, etc.)
+- No downloadable COAs
+- No certification references unless confirmed separately
+
+---
+
+## Change Control
+
+If verified specification sheets or certificates are provided by the client:
+- This file must be updated first
+- Only then may numeric specifications appear anywhere on the website

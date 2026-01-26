@@ -1,0 +1,23 @@
+# Phase 10 — Visual & UX System
+## 04_PAGE_HIERARCHY_RULES
+
+### Content Width
+- Constrained maximum width
+- No edge-to-edge text blocks
+
+### Section Rhythm
+- Clear vertical spacing between sections
+- Predictable flow from heading to body
+
+### Heading Hierarchy
+- One primary heading per page
+- Logical H2 → H3 progression
+- No decorative headings
+
+### White Space Logic
+- White space used for separation, not aesthetics
+- Breathing room without visual emptiness
+
+### Scanning Priority
+- Headings must communicate structure alone
+- User should understand page by skimming headings

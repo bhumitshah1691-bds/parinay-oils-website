@@ -1,0 +1,27 @@
+# Phase 10 — Visual & UX System
+## 05_EXECUTION_GUARDRAILS
+
+### Explicitly Forbidden
+- Animations and motion effects
+- Carousels and sliders
+- Gradient-heavy designs
+- Decorative icons without meaning
+
+### Styling Limits
+- No visual elements that imply certification or scale
+- No visual claims stronger than textual claims
+
+### Content Protection
+- Text content is locked from Phase 7
+- No rewriting for design reasons
+
+### Change Control
+- Any visual change must respect:
+  - Manufacturing vs Traded separation
+  - Compliance tone
+  - Export-grade seriousness
+
+### Cursor Discipline
+- One visual change per prompt
+- No “improve UI” instructions
+- Every execution step must reference Phase 10 files

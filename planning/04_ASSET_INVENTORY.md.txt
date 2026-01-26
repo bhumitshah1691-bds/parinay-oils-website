@@ -1,0 +1,107 @@
+PHASE 4 — ASSET INVENTORY & GAP ANALYSIS
+
+STATUS
+- Locked
+
+PURPOSE
+- Audit available visual and documentary assets
+- Identify gaps before design or development
+- Prevent creation of unverifiable or misleading assets
+
+RULES
+- Only list assets that exist or can be realistically produced
+- No placeholders allowed
+- No stock imagery unless explicitly approved later
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION A — EXISTING ASSETS
+
+1. BRAND ASSETS
+- Logo (format, quality): 
+- Brand colors defined: 
+- Brand typography defined: 
+
+2. PHOTOGRAPHY
+- Factory exterior:
+- Factory interior:
+- Processing equipment:
+- Storage / warehouse:
+- Dispatch / logistics:
+- Raw material (Castor Seed):
+- Finished product (Castor Oil):
+
+3. DOCUMENTATION
+- Company registration documents:
+- Certifications (ISO / GMP / others):
+- Quality manuals or SOP summaries:
+- Product specification sheets:
+
+4. DIGITAL
+- Existing website:
+- Social media presence:
+- Professional email domain:
+
+5. MISCELLANEOUS
+- Export documentation samples:
+- Test reports (non-confidential):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION B — ASSET GAP ANALYSIS
+
+CRITICAL ASSETS (REQUIRED BEFORE LAUNCH)
+- Company logo (clean, usable version)
+- Accurate company address and contact details
+- Product understanding visuals (diagrams acceptable)
+- Manufacturing process flow diagram (abstract, not photographic)
+
+OPTIONAL ASSETS (POST-LAUNCH IMPROVEMENT)
+- Factory interior photography
+- Equipment photography
+- Warehouse and dispatch visuals
+- Leadership photography
+
+DO NOT CREATE / DO NOT FAKE
+- Certification visuals without actual certification
+- Stock factory imagery implying ownership
+- Sustainability claims without operational proof
+- Client logos or testimonials

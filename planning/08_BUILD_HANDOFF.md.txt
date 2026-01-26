@@ -1,0 +1,463 @@
+PHASE 8 — BUILD HANDOFF RULES
+
+STATUS
+- Locked
+
+OBJECTIVE
+- Implement the website strictly based on Phase 6 wireframes and Phase 7 content
+- Prevent design, content, or structural reinterpretation during build
+
+AUTHORITATIVE SOURCES
+- Phase 6: Wireframes (planning/06_WIREFRAMES/)
+- Phase 7: Content (planning/07_CONTENT/)
+
+NON-NEGOTIABLE RULES
+- No new sections may be added
+- No existing sections may be removed
+- No content rewriting, paraphrasing, or tone changes
+- No marketing language may be introduced
+- Manufactured vs Traded separation must remain explicit everywhere
+
+LAYOUT RULES
+- Desktop-first implementation
+- Simple, readable typography
+- Clear section separation
+- No visual emphasis that implies marketing intent
+
+CONTENT RULES
+- All visible text must come from Phase 7 files
+- “Available on request” must remain exactly as written
+- No inferred data or assumptions
+
+CHANGE CONTROL
+- Any requested change must reference a specific Phase 6 or Phase 7 line
+- Changes without reference are invalid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PAGE TO SOURCE MAPPING
+
+HOME
+- Wireframe: planning/06_WIREFRAMES/01_HOME_WIREFRAME.md
+- Content: planning/07_CONTENT/08_HOME.md
+
+ABOUT US
+- Wireframe: planning/06_WIREFRAMES/02_CONTENT_PAGE_WIREFRAME.md
+- Content: planning/07_CONTENT/05_ABOUT.md
+
+PRODUCT — CASTOR OIL
+- Wireframe: planning/06_WIREFRAMES/03_PRODUCT_PAGE_WIREFRAME.md
+- Content: planning/07_CONTENT/01_PRODUCTS_CASTOR_OIL.md
+
+PRODUCT — CASTOR SEED
+- Wireframe: planning/06_WIREFRAMES/03_PRODUCT_PAGE_WIREFRAME.md
+- Content: planning/07_CONTENT/02_PRODUCTS_CASTOR_SEED.md
+
+MANUFACTURING & QUALITY
+- Wireframe: planning/06_WIREFRAMES/02_CONTENT_PAGE_WIREFRAME.md
+- Content: planning/07_CONTENT/03_MANUFACTURING_QUALITY.md
+
+APPLICATIONS & INDUSTRIES
+- Wireframe: planning/06_WIREFRAMES/02_CONTENT_PAGE_WIREFRAME.md
+- Content: planning/07_CONTENT/04_APPLICATIONS.md
+
+SUSTAINABILITY
+- Wireframe: planning/06_WIREFRAMES/02_CONTENT_PAGE_WIREFRAME.md
+- Content: planning/07_CONTENT/06_SUSTAINABILITY.md
+
+INSIGHTS
+- Wireframe: planning/06_WIREFRAMES/02_CONTENT_PAGE_WIREFRAME.md
+- Content: planning/07_CONTENT/07_INSIGHTS.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LAYOUT COMPONENT PRIMITIVES
+
+GLOBAL COMPONENTS
+- Header
+  - Logo block
+  - Primary navigation
+  - Utility links (Language, Search)
+- Footer
+  - Company information
+  - Navigation links
+  - Legal links
+
+PAGE-LEVEL COMPONENTS
+- Section Container
+  - Section title
+  - Section body
+- Two-Column Layout
+  - Main content
+  - Sidebar (used only on content pages)
+- Three-Column Layout
+  - Equal-width informational blocks
+
+CONTENT COMPONENTS
+- Text Block
+  - Paragraph text from Phase 7 only
+- List Block
+  - Bullet lists from Phase 7 only
+- Table Block
+  - Specification or data tables (structure only)
+- Document Link Block
+  - TDS / MSDS / PDF references
+- Inquiry Reference Block
+  - Standard inquiry text (no forms unless specified)
+
+UTILITY COMPONENTS
+- Breadcrumb
+- Status Label (Manufactured / Traded)
+- Disclaimer Block
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NAVIGATION & ROUTING RULES
+
+PRIMARY NAVIGATION
+- Home → /
+- About Us → /about
+- Products → /products
+  - Castor Oil → /products/castor-oil
+  - Castor Seed → /products/castor-seed
+- Manufacturing & Quality → /manufacturing-quality
+- Applications & Industries → /applications
+- Sustainability → /sustainability
+- Insights → /insights
+- Contact Us → /contact
+
+ROUTING RULES
+- URLs must be human-readable and lowercase
+- No query-based navigation for primary pages
+- No auto-generated routes beyond those listed
+
+BREADCRUMB RULES
+- Breadcrumbs must reflect the routing hierarchy
+- Example: Home > Products > Castor Oil
+
+LINKING RULES
+- Home page links only to top-level pages
+- Product pages may link to Applications and Manufacturing & Quality
+- No cross-linking that implies manufacturing of traded products
+
+NAVIGATION CONSTRAINTS
+- No hidden pages
+- No dynamic menus that alter structure
+- No promotional links in primary navigation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONTENT RENDERING RULES
+
+TEXT INTEGRITY
+- All visible text must be rendered exactly as written in Phase 7 files
+- No paraphrasing, summarization, or rewriting
+- Line breaks and section order must be preserved
+
+SECTION ORDER
+- Sections must appear in the same order as defined in Phase 7
+- No collapsing, merging, or reordering of sections
+
+HEADINGS
+- Section titles must match Phase 7 section headings exactly
+- No decorative or alternative headings
+
+DISCLAIMERS & QUALIFIERS
+- Disclaimer language must be clearly visible
+- “Available on request” must remain unchanged and visible
+
+DOCUMENT REFERENCES
+- TDS, MSDS, CoA, and PDF references must appear as text links or buttons
+- No gated access unless explicitly specified later
+
+CONDITIONAL CONTENT
+- Manufactured vs Traded labels must be visible on all relevant pages
+- Manufacturing-related blocks must not render on traded product pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATA, TABLES & DOCUMENT HANDLING
+
+TABLE RULES
+- Tables must render only parameters defined in Phase 7
+- No default values may be assumed
+- Empty or unavailable values must display as “Available on request”
+
+DATA SOURCING
+- No data may be inferred, estimated, or auto-filled
+- All numeric or technical values must originate from client-provided documents
+
+DOCUMENT HANDLING
+- TDS, MSDS, CoA, and other documents must be linked explicitly
+- If a document is not available, the link must not be shown
+- No placeholder downloads
+
+VERSION CONTROL
+- Documents must be versioned where applicable
+- Document updates must not alter page text
+
+EXPORT COMPLIANCE
+- Document visibility may vary by product and destination
+- No document implies certification unless explicitly stated
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RESPONSIVE & MOBILE ADAPTATION
+
+DESKTOP-FIRST PRINCIPLE
+- Desktop layout defines information hierarchy
+- Mobile adapts layout, not content
+
+MOBILE RULES
+- No content may be removed on mobile
+- Sections must stack vertically in original order
+- Tables may scroll horizontally if required
+- Sidebars must move below main content
+
+INTERACTION CONSTRAINTS
+- No content hidden behind accordions by default
+- No collapsible sections for specifications or disclaimers
+- No gesture-only access to critical information
+
+VISIBILITY RULES
+- Disclaimers, status labels, and qualifiers must remain visible on all screen sizes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SEO & METADATA GUARDRAILS
+
+PAGE TITLES
+- Titles must reflect page purpose only
+- No promotional adjectives or keyword stuffing
+- Format: Page Name | Parinay Oils
+
+META DESCRIPTIONS
+- Descriptive, factual summaries only
+- Must not introduce claims not present in Phase 7 content
+
+HEADINGS
+- H1 used once per page
+- Section headings follow Phase 7 structure
+- No SEO-driven heading insertion
+
+SCHEMA & STRUCTURED DATA
+- No structured data added unless explicitly approved
+- No product pricing, ratings, or availability schema
+
+INDEXING
+- All primary pages indexable by default
+- No doorway or duplicate pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BUILD ACCEPTANCE CHECKLIST
+
+STRUCTURE
+- All pages match Phase 6 wireframes exactly
+- No extra or missing sections
+- Section order preserved across all pages
+
+CONTENT
+- All visible text sourced from Phase 7 only
+- No rewritten, paraphrased, or embellished copy
+- Manufactured vs Traded status visible where applicable
+
+DATA & DOCUMENTS
+- No assumed or auto-filled data
+- “Available on request” used where applicable
+- Document links shown only if files exist
+
+NAVIGATION
+- Routes match defined URLs
+- Breadcrumbs reflect correct hierarchy
+- No cross-links implying incorrect manufacturing scope
+
+RESPONSIVENESS
+- Desktop layout respected
+- Mobile displays full content without omission
+- Tables and disclaimers remain accessible
+
+COMPLIANCE
+- No marketing claims introduced
+- No certifications implied without proof
+- No sustainability or regulatory overreach
+
+APPROVAL
+- Any deviation requires explicit reference to Phase 6 or Phase 7
+- Changes without reference are rejected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

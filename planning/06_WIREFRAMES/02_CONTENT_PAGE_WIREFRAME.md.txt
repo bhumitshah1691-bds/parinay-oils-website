@@ -1,0 +1,32 @@
+CONTENT PAGE TEMPLATE — WIREFRAME (LOW FIDELITY)
+
+HEADER
+- Corporate Identity / Logo
+- Global Navigation Bar
+- Utility Links (Language, Search)
+
+SECTION 1 — ORIENTATION
+- Breadcrumb Navigation (Home > Page Name)
+- Page Title (H1)
+- Brief scope / context description
+
+SECTION 2 — INFORMATION ARCHITECTURE
+LAYOUT: Sidebar (Left) + Main Content (Right)
+
+SIDEBAR
+- Sub-navigation (section anchors or child pages)
+- Downloadable Assets (Brochure PDF, Policy PDF)
+- Quick Contact (Sales / Export Email)
+
+MAIN CONTENT
+- Content Block A: Heading + Factual Text
+- Visual Data Placeholder (Process Flow, Facility Map, Graph)
+- Content Block B: Heading + Bullet Points (Specs, Standards)
+- Content Block C: Technical Tables (Parameters, Timelines, Data)
+
+SECTION 3 — RELATED CONTEXT
+- Heading: Related Information
+- Links to 2–3 relevant internal pages
+
+FOOTER
+- Standard Corporate Footer (Address, Navigation, Legal)

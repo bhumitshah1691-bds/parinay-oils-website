@@ -1,0 +1,227 @@
+APPLICATIONS — CONTENT BLUEPRINT
+
+SECTION A — INDUSTRIAL APPLICATIONS
+
+H1
+- Industrial use of Castor Oil
+
+SECTION 1 — APPLICATION OVERVIEW
+H2: Industrial Applications
+Evidence Required:
+- High-level explanation of why Castor Oil is used in industrial contexts
+- Functional properties driving usage
+Visual:
+- Industrial-context imagery
+Must NOT Include:
+- Industry dominance claims
+- Performance guarantees
+
+SECTION 2 — USE-CASE CATEGORIES
+H2: Use-Case Categories
+H3: Manufacturing Inputs
+H3: Processing Aids
+H3: Chemical Intermediates
+Evidence Required:
+- Logical grouping of industrial uses
+Visual:
+- Schematic or icon-based visuals
+Must NOT Include:
+- Customer examples
+
+SECTION 3 — PRODUCT LINKAGE
+H2: Product Linkage
+Evidence Required:
+- Clear linkage to Castor Oil grades without technical detail
+Visual:
+- Product-to-application mapping visuals
+Must NOT Include:
+- Specification tables
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION B — PHARMACEUTICAL & COSMETIC APPLICATIONS
+
+H1
+- Pharmaceutical and cosmetic application context
+
+SECTION 1 — APPLICATION OVERVIEW
+H2: Pharmaceutical & Cosmetic Applications
+Evidence Required:
+- High-level suitability explanation without regulatory claims
+- Emphasis on purity and consistency expectations
+Visual:
+- Clean, neutral application imagery
+Must NOT Include:
+- Medical claims
+- Approval statements
+
+SECTION 2 — QUALITY CONSIDERATIONS
+H2: Quality Considerations
+Evidence Required:
+- Relationship between QA processes and sensitive end-uses
+Visual:
+- Quality-focused visuals
+Must NOT Include:
+- Claims of compliance without certification reference
+
+SECTION 3 — BUYER RESPONSIBILITY
+H2: Buyer Validation
+Evidence Required:
+- Clear statement that final validation rests with buyer
+Visual:
+- None or minimal
+Must NOT Include:
+- Supplier-side guarantees
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION C — LUBRICANTS, PAINTS & COATINGS
+
+H1
+- Lubricants, paints, and coatings application context
+
+SECTION 1 — APPLICATION OVERVIEW
+H2: Lubricants, Paints & Coatings
+Evidence Required:
+- Functional role of Castor Oil in lubrication and coating systems
+- Property-to-use linkage (without technical depth)
+Visual:
+- Application-context imagery
+Must NOT Include:
+- Performance benchmarks
+- Comparative claims
+
+SECTION 2 — FORMULATION CONTEXT
+H2: Formulation Context
+Evidence Required:
+- High-level explanation of why Castor Oil is selected in formulations
+Visual:
+- Abstract formulation diagrams
+Must NOT Include:
+- Proprietary formulation details
+
+SECTION 3 — PRODUCT ALIGNMENT
+H2: Product Alignment
+Evidence Required:
+- Alignment between Castor Oil offerings and application needs
+Visual:
+- Product-to-application mapping visuals
+Must NOT Include:
+- End-user references
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION D — EXPORT MARKETS & USE-CASES
+
+H1
+- Export markets and international use-cases
+
+SECTION 1 — EXPORT OVERVIEW
+H2: Export Orientation
+Evidence Required:
+- Explanation of export-focused operations and buyer expectations
+- Alignment with international trade norms
+Visual:
+- Export or logistics-context imagery
+Must NOT Include:
+- Country lists unless verified
+- Named clients
+
+SECTION 2 — USE-CASE CONTEXT
+H2: International Use-Cases
+Evidence Required:
+- High-level examples of how Castor Oil is used across regions
+Visual:
+- Contextual diagrams or neutral visuals
+Must NOT Include:
+- Market share claims
+
+SECTION 3 — RISK & COMPLIANCE AWARENESS
+H2: Risk & Compliance Awareness
+Evidence Required:
+- Understanding of documentation, quality, and logistics risks in exports
+Visual:
+- Process or checklist visuals
+Must NOT Include:
+- Guarantees or assurances beyond control
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

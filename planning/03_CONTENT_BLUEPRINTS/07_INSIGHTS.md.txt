@@ -1,0 +1,92 @@
+INSIGHTS — CONTENT BLUEPRINT
+
+SECTION A — CASTOR OIL BASICS & FAQs
+
+H1
+- Castor Oil fundamentals
+
+SECTION 1 — BASICS OVERVIEW
+H2: Castor Oil Basics
+Evidence Required:
+- Plain-language explanation of what Castor Oil is
+- Difference between Castor Oil and Castor Seed
+Visual:
+- Simple explanatory visuals or diagrams
+Must NOT Include:
+- Brand references
+- Sales framing
+
+SECTION 2 — COMMON QUESTIONS
+H2: Frequently Asked Questions
+Evidence Required:
+- Answers to common, non-technical buyer questions
+Visual:
+- None or minimal
+Must NOT Include:
+- Promotional answers
+- Application-specific promises
+
+SECTION 3 — USE & HANDLING CONTEXT
+H2: General Use & Handling
+Evidence Required:
+- High-level handling and storage considerations
+Visual:
+- Neutral handling visuals
+Must NOT Include:
+- Safety guarantees
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION B — INDUSTRY KNOWLEDGE
+
+H1
+- Castor oil industry context
+
+SECTION 1 — INDUSTRY STRUCTURE
+H2: Industry Overview
+Evidence Required:
+- High-level view of castor oil value chain (agriculture → processing → applications)
+Visual:
+- Simplified value-chain diagram
+Must NOT Include:
+- Market share claims
+- Competitive positioning
+
+SECTION 2 — SUPPLY & DEMAND CONTEXT
+H2: Supply & Demand Context
+Evidence Required:
+- Neutral explanation of factors affecting supply and demand
+Visual:
+- Abstract or illustrative visuals
+Must NOT Include:
+- Price predictions
+- Trend forecasting
+
+SECTION 3 — REGULATORY & TRADE CONTEXT
+H2: Regulatory & Trade Considerations
+Evidence Required:
+- Awareness of trade, quality, and compliance considerations
+Visual:
+- Compliance-context visuals
+Must NOT Include:
+- Legal advice
+- Country-specific rules unless verified

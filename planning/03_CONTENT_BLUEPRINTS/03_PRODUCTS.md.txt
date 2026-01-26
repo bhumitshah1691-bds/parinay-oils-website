@@ -1,0 +1,136 @@
+PRODUCTS — CONTENT BLUEPRINT
+
+SECTION A — CASTOR OIL
+
+H1
+- Castor Oil offering and positioning
+
+SECTION 1 — PRODUCT OVERVIEW
+H2: Castor Oil
+Evidence Required:
+- Definition of Castor Oil as a processed product
+- Clear distinction from Castor Seed
+Visual:
+- Processing or product-context imagery
+Must NOT Include:
+- Marketing claims
+- Comparative superiority statements
+
+SECTION 2 — GRADES & VARIANTS
+H2: Grades & Variants
+Evidence Required:
+- High-level description of available grades (without technical depth yet)
+- Clarity on standard vs application-specific grades
+Visual:
+- Tabular or schematic representation
+Must NOT Include:
+- Exact chemical specifications at this stage
+
+SECTION 3 — QUALITY & CONSISTENCY
+H2: Quality & Consistency
+Evidence Required:
+- Linkage to manufacturing process and QA discipline
+Visual:
+- Process or quality-related visuals
+Must NOT Include:
+- Certification logos (handled elsewhere)
+
+SECTION 4 — APPLICATION LINKAGE
+H2: Applications Overview
+Evidence Required:
+- Mapping to major application categories
+Visual:
+- Application-context visuals
+Must NOT Include:
+- End-client examples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION B — CASTOR SEED
+
+H1
+- Castor Seed sourcing and trading capability
+
+SECTION 1 — PRODUCT OVERVIEW
+H2: Castor Seed
+Evidence Required:
+- Definition of Castor Seed as an agricultural commodity
+- Clear separation from manufacturing activities
+Visual:
+- Raw seed handling, storage, or sourcing visuals
+Must NOT Include:
+- Processing claims
+- Manufacturing language
+
+SECTION 2 — SOURCING & QUALITY PARAMETERS
+H2: Sourcing & Quality Parameters
+Evidence Required:
+- General sourcing regions or practices (without supplier disclosure)
+- Basic quality parameters used for evaluation
+Visual:
+- Sourcing or inspection-related imagery
+Must NOT Include:
+- Farmer stories
+- Sustainability claims (handled elsewhere)
+
+SECTION 3 — HANDLING & STORAGE
+H2: Handling & Storage
+Evidence Required:
+- Storage discipline and handling practices
+- Measures to preserve quality during transit
+Visual:
+- Warehouse or storage visuals
+Must NOT Include:
+- Capacity numbers unless verified
+
+SECTION 4 — APPLICATION CONTEXT
+H2: Application Context
+Evidence Required:
+- How Castor Seed is used downstream (high-level)
+Visual:
+- Contextual diagrams or visuals
+Must NOT Include:
+- End-user claims
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

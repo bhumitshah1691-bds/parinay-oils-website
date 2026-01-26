@@ -1,0 +1,41 @@
+HOME PAGE — WIREFRAME (LOW FIDELITY)
+
+HEADER
+- Corporate Identity / Logo (Left)
+- Global Navigation Bar (Home, About Us, Products, Manufacturing & Quality, Applications & Industries, Sustainability, Insights, Contact Us)
+- Language / Region Selector (Right Corner)
+- Site Search Input (Right Corner)
+
+SECTION 1 — COMPANY IDENTIFICATION & CORE OFFERING
+- Background container (industrial imagery placeholder)
+- Headline: Manufacturer of Castor Oil, Trader of Castor Seeds
+- Sub-headline: Operational scale / export-oriented positioning
+- Primary Action: View Products
+- Secondary Action: Corporate Profile Download (PDF)
+
+SECTION 2 — PRODUCT CATEGORIZATION
+- Two-column layout
+  - Castor Oil (Manufactured) → Link to Product Page
+  - Castor Seed (Traded / Sourced) → Link to Product Page
+
+SECTION 3 — CREDIBILITY & COMPLIANCE
+- Certifications & Quality Standards (text/logo placeholders)
+- Reference standards: ISO, GMP, HACCP, REACH (only if applicable)
+- Link: View Quality Policy
+
+SECTION 4 — OPERATIONAL SNAPSHOT
+- Metric Block 1: Manufacturing Capacity
+- Metric Block 2: Export Presence (Countries / Regions)
+- Metric Block 3: Industry Experience (Years / Establishment)
+
+SECTION 5 — PROCUREMENT ENTRY
+- Headline: Procurement & Inquiry
+- Supporting text: Direct line to export desk
+- Action: Request Quote / Contact Us
+
+FOOTER
+- Registered Company Address & CIN
+- Primary Navigation Links
+- Product Quick Links (Castor Oil Grades, Castor Seed Types)
+- Contact Details (Phone, Email)
+- Bottom Bar: Copyright, Privacy Policy, Terms of Trade, Sitemap

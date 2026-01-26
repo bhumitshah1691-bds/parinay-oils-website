@@ -1,0 +1,61 @@
+# Phase 9.5 — Content & Asset Freeze
+## 04_CERTIFICATIONS_AND_COMPLIANCE
+
+This file defines certification and compliance representation rules for the website.
+
+No certification, approval, or compliance claim may be made unless explicitly listed here.
+
+---
+
+## Current Certification Status
+
+At present, no certifications are publicly declared on the website.
+
+This includes (but is not limited to):
+- ISO
+- GMP
+- HACCP
+- Organic
+- Any government or export certifications
+
+---
+
+## Website Representation Rules
+
+The website must:
+- Avoid certification logos
+- Avoid certification badges
+- Avoid compliance icons
+- Avoid statements implying certified operations
+
+Allowed statements:
+- “Quality and compliance details can be shared upon inquiry.”
+- “Documentation available on request.”
+
+---
+
+## Visual Guardrails
+
+Forbidden visuals:
+- Certification seals
+- Checkmarks implying approval
+- Laboratory imagery implying certification
+- Government emblems or flags
+
+Illustrative visuals may be used only if they do not imply compliance status.
+
+---
+
+## Legal Safety Rule
+
+No part of the website should imply that Parinay Oils holds certifications unless confirmed in writing by the company owner.
+
+Misrepresentation risk is considered critical.
+
+---
+
+## Change Control
+
+If certifications are later confirmed:
+- This file must be updated first
+- Only then may certification references be added to pages or documents

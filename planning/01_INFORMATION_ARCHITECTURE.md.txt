@@ -1,0 +1,155 @@
+PHASE 1 — INFORMATION ARCHITECTURE (FROZEN AFTER APPROVAL)
+
+PURPOSE
+- Define final sitemap, navigation, and page structure
+- Remove ambiguity before design or development
+
+STATUS
+- Locked
+
+
+
+PRIMARY NAVIGATION (LOCK)
+
+1. Home
+2. About Us
+3. Products
+4. Manufacturing & Quality
+5. Applications & Industries
+6. Sustainability
+7. Insights
+8. Contact Us
+
+
+
+
+
+FOOTER NAVIGATION
+
+- About Us
+- Products
+- Manufacturing & Quality
+- Applications & Industries
+- Sustainability
+- Contact Us
+- Privacy Policy
+- Terms & Conditions
+- Sitemap
+
+
+
+
+
+
+
+
+FINAL SITEMAP (LOCK)
+
+Home
+
+About Us
+- Company Overview
+- Vision, Mission & Values
+- Infrastructure & Capacity
+- Leadership
+
+Products
+- Castor Oil
+- Derivatives / Variants
+- Packaging & Specifications
+- Customization & Bulk Supply
+
+Manufacturing & Quality
+- Manufacturing Process
+- Quality Assurance & Testing
+- Certifications & Compliance
+- Supply Chain & Logistics
+
+Applications & Industries
+- Industrial Applications
+- Pharmaceutical & Cosmetic
+- Lubricants, Paints & Coatings
+- Export Markets & Use-Cases
+
+Sustainability
+- Responsible Sourcing
+- Environmental Practices
+- Waste Management & Energy Use
+
+Insights
+- Castor Oil Basics & FAQs
+- Industry Knowledge
+
+Contact Us
+- Contact Information
+- Inquiry / RFQ
+- Location Map
+
+Legal
+- Privacy Policy
+- Terms & Conditions
+- Sitemap
+
+
+
+
+
+
+
+
+
+
+
+
+PAGE COUNT SUMMARY
+
+- Core Pages: 22
+- Legal / Utility Pages: 3
+- Total Pages: 25
+
+
+
+
+
+
+
+
+
+
+
+
+URL STRUCTURE RULES
+
+- Lowercase only
+- Hyphen-separated words
+- No query parameters
+- No file extensions
+- One canonical URL per page
+
+Examples:
+- /products/castor-oil
+- /manufacturing-quality/certifications-compliance
+- /applications/pharmaceutical-cosmetic
+
+
+
+
+
+
+
+
+
+
+
+
+STRUCTURAL RULES
+
+- Maximum navigation depth: 3 levels
+- No page exists outside the Final Sitemap
+- Page names must match sitemap labels
+- No renaming after Phase 1 lock
+- Any new page or section resets planning to Phase 0
+
+
+
+

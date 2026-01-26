@@ -1,0 +1,46 @@
+# Phase 9.5 — Content & Asset Freeze
+## 06_DOCUMENTS_AND_DOWNLOADS
+
+This file defines all downloadable documents available on the website.
+
+Only the documents listed here may be linked or referenced.
+No additional documents may be introduced without updating this file.
+
+---
+
+## Available Documents
+
+### 1. Castor Oil – Technical Overview (Indicative)
+- File: raw_assets/docs/castor-oil-technical-overview.pdf
+- Usage Location: Castor Oil product page
+- Nature: Generic, illustrative, non-binding
+- Purpose: Buyer orientation only
+
+---
+
+### 2. Castor Seed – Technical Overview (Indicative)
+- File: raw_assets/docs/castor-seed-technical-overview.pdf
+- Usage Location: Castor Seed product page
+- Nature: Generic, illustrative, non-binding
+- Purpose: Buyer orientation only
+
+---
+
+## Mandatory Accompanying Text
+
+Wherever these documents are linked or referenced, the following text must appear clearly:
+
+“Technical overview provided for general reference only.  
+Detailed specifications, certificates, and confirmed parameters are shared upon inquiry.”
+
+This text must not be removed or altered.
+
+---
+
+## Forbidden Usage
+
+These documents must NOT be:
+- Presented as Certificates of Analysis (COA)
+- Presented as final specification sheets
+- Used to imply guaranteed quality parameters
+- Used as proof of compliance

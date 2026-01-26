@@ -1,0 +1,126 @@
+# Phase 12 — Visual Impact Layer
+## 03_SECTION_FRAMING_SYSTEM
+
+### Objective
+Create visible visual weight and richness across pages so the website feels like a serious, established Indian agro company.
+
+The goal is to avoid “document-like” pages and instead present structured, intentional sections.
+
+---
+
+### Core Principle
+No content block should float freely.
+
+Every major section must feel:
+- Intentionally framed
+- Visually separated
+- Clearly grouped
+
+Whitespace alone is not enough for Indian market perception.
+
+---
+
+### Section Background Strategy
+
+Allowed:
+- Alternating background blocks using:
+  - Off-white
+  - Light warm grey
+  - Very light green-tinted neutral
+
+Rules:
+- No long stretches of pure white
+- Background changes must feel deliberate, not decorative
+- Contrast should be subtle, not loud
+
+Purpose:
+- Improve scannability
+- Increase perceived depth
+- Signal investment and scale
+
+---
+
+### Section Container Rules
+
+Each major section should:
+- Have clear top and bottom padding
+- Feel visually bounded
+- Align to a consistent max-width grid
+
+No section should visually bleed into the next without separation.
+
+---
+
+### Card Usage (Encouraged)
+
+Cards may be used for:
+- Product blocks
+- Feature summaries
+- Structured informational content
+
+Card Rules:
+- Flat design (no heavy shadows)
+- Subtle border or background separation
+- Consistent padding and radius
+- Cards must align in clean grids
+
+Cards are for **structure**, not decoration.
+
+---
+
+### Home Page Framing Rules
+
+The Home page must:
+- Clearly separate hero, product, and informational sections
+- Never feel like a single scrolling column
+- Use framing to create a modular, expandable feel
+
+Each section should look like it could stand alone.
+
+---
+
+### Product Page Framing Rules
+
+Product pages must:
+- Visually separate:
+  - Overview
+  - Specifications (structure only)
+  - Documents / inquiry actions
+- Use framing to reinforce technical seriousness
+
+Avoid casual or blog-like layouts.
+
+---
+
+### About Page Framing Rules
+
+About page must:
+- Separate company overview, founder message, and supporting content
+- Use framing to elevate credibility, not storytelling
+- Founder section should feel formal and intentional
+
+---
+
+### Forbidden Techniques
+
+- Decorative shapes
+- Random lines or dividers
+- Over-stylized section edges
+- Section-level animations
+
+---
+
+### Success Criteria
+
+At a glance, pages should feel:
+- Structured
+- Deliberate
+- Heavy enough to signal scale
+- Calm, not busy
+
+---
+
+### Guardrails
+- Framing must support content, not dominate it
+- No visual gimmicks
+- Consistency across all pages is mandatory

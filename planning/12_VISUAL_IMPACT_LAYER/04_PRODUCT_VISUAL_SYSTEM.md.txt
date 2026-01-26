@@ -1,0 +1,106 @@
+# Phase 12 — Visual Impact Layer
+## 04_PRODUCT_VISUAL_SYSTEM
+
+### Objective
+Make products feel credible, industrial, and commercially serious through visual hierarchy, sizing, and structure.
+
+The goal is to avoid “catalog text” perception and instead signal real commodity business presence.
+
+---
+
+### Product Visual Philosophy
+
+Indian B2B buyers judge product credibility by:
+- Image size
+- Clarity of separation
+- Technical presentation
+
+Products must feel:
+- Large enough to matter
+- Cleanly presented
+- Free from marketing exaggeration
+
+---
+
+### Product Image Usage Rules
+
+Allowed:
+- One primary image per product
+- Image must be visually dominant within the product section
+- Image must appear before or alongside key product information
+
+Rules:
+- No image galleries
+- No sliders
+- No multiple angles
+- No decorative overlays
+
+Images support credibility, not aesthetics.
+
+---
+
+### Image Sizing & Placement
+
+- Product images must be large enough to anchor the section
+- Images should not feel like thumbnails
+- Maintain generous spacing around images
+
+Preferred layouts:
+- Image on one side, content on the other
+- Image aligned to section grid, not floating
+
+---
+
+### Product Content Grouping
+
+Each product section must be visually divided into:
+
+1. Product Overview  
+2. Specification Structure (non-numeric)  
+3. Documents / Inquiry Actions  
+
+Each group must be clearly framed and separated.
+
+---
+
+### Product Differentiation Rules
+
+- Manufactured products (Castor Oil) must feel more controlled and technical
+- Traded products (Castor Seed) must feel clearly labeled as sourced
+
+Visual hierarchy must reflect this distinction subtly, without text repetition.
+
+---
+
+### Document Linking Rules
+
+- Technical overview PDFs must appear as secondary actions
+- Links must be clearly labeled as “Indicative” or “Technical Overview”
+- No visual emphasis suggesting certificates or guarantees
+
+---
+
+### Forbidden Techniques
+
+- No lifestyle imagery
+- No consumer-style product shots
+- No glossy FMCG presentation
+- No certification-style icons near products
+
+---
+
+### Success Criteria
+
+Product pages should feel:
+- Technical
+- Serious
+- Commercially oriented
+- Suitable for inquiry-driven sales
+
+---
+
+### Guardrails
+
+- No visual claims stronger than text claims
+- Product visuals must align with Phase 9.5 content freeze
+- Consistency across all product pages is mandatory

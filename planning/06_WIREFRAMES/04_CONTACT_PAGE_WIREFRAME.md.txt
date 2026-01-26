@@ -1,0 +1,39 @@
+CONTACT PAGE — WIREFRAME (LOW FIDELITY)
+
+HEADER
+- Corporate Identity / Logo
+- Global Navigation Bar
+- Utility Links
+
+SECTION 1 — ORIENTATION
+- Breadcrumb Navigation
+- Page Title: Contact Us / Export Desk
+
+SECTION 2 — CORPORATE HEADQUARTERS
+LAYOUT: 50 / 50 Split
+
+LEFT
+- Registered Office Address
+- Plant / Factory Address (if different)
+- Map Placeholder
+- Business Hours (Timezone specified)
+
+RIGHT
+- Departmental Directory
+  - Domestic Sales (Name, Email, Phone)
+  - International Exports (Name, Email, Phone)
+  - Procurement / Purchase (Email)
+  - General Inquiry (Email)
+
+SECTION 3 — INQUIRY INTERFACE
+- Form Fields:
+  - Name & Designation
+  - Company Name (Mandatory)
+  - Email & Country Code / Phone
+  - Subject (Procurement, Sales, Investor Relations)
+  - Message
+  - Human Verification Checkbox
+- Submit Button
+
+FOOTER
+- Standard Corporate Footer

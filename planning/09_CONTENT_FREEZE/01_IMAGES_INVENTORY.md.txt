@@ -1,0 +1,89 @@
+# Phase 9.5 — Content & Asset Freeze
+## 01_IMAGES_INVENTORY
+
+This file is the single source of truth for all images used on the website.
+All images listed here are either client-provided or AI-generated illustrative visuals.
+No image outside this list may be used.
+
+---
+
+## Logo Assets
+
+1. Primary Logo
+- File: raw_assets/logos/logo-primary.svg
+- File: raw_assets/logos/logo-primary.png
+- Usage: Header, footer, favicon source
+- Notes: Faithful reconstruction of original logo for web use
+
+2. White Logo
+- File: raw_assets/logos/logo-white.png
+- Usage: Dark backgrounds, footer if required
+- Notes: Same logo, color-inverted for contrast
+
+---
+
+## Hero Image (Home Page)
+
+1. Home Hero Visual
+- File: raw_assets/hero/home-hero.jpg
+- Usage: Home page hero section only
+- Description: Illustrative agro-industrial visual representing castor oil and seed business
+- Motion: Slow scroll-based parallax
+- Disclosure: Representational visual, not a specific company facility
+
+---
+
+## Product Images
+
+1. Castor Oil
+- File: raw_assets/products/castor-oil.jpg
+- Usage: Castor Oil product page
+- Description: Illustrative product visual showing clarity and purity
+- Disclosure: Representational product image
+
+2. Castor Seed
+- File: raw_assets/products/castor-seed.jpg
+- Usage: Castor Seed product page
+- Description: Illustrative bulk commodity visual
+- Disclosure: Representational product image
+
+---
+
+## Facility & Process Images
+
+1. Processing / Manufacturing Visual
+- File: raw_assets/facility/processing.jpg
+- Usage: Manufacturing & Quality page
+- Description: Illustrative industrial processing environment
+- Disclosure: Representational visual
+
+2. Warehouse / Logistics Visual
+- File: raw_assets/facility/warehouse.jpg
+- Usage: Applications / Logistics sections if needed
+- Description: Illustrative warehousing and export handling environment
+- Disclosure: Representational visual
+
+---
+
+## Company / Founder Images
+
+1. Founder Portrait
+- File: raw_assets/company/founder.jpg
+- Usage: About Us page
+- Description: Enhanced founder portrait with neutral background
+- Notes: Original photo retained, background professionally neutralized
+
+2. Company Abstract Visual
+- File: raw_assets/company/about.jpg
+- Usage: About Us supporting visual
+- Description: Abstract industrial visual representing agro-export business
+- Disclosure: Illustrative, non-specific
+
+---
+
+## Usage Guardrails
+
+- No images may be reused outside their listed purpose
+- No image may imply certifications, scale, or facilities not explicitly confirmed
+- All AI-generated images must be treated as illustrative
+- Any new image addition requires Phase 9.5 update

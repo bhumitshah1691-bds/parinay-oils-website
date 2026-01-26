@@ -1,0 +1,160 @@
+# Phase 12 — Visual Impact Layer
+## 02_HERO_SECTION_SYSTEM
+
+### Objective
+Create strong first-glance authority aligned with Indian business psychology:
+- Visible investment
+- Sense of scale
+- Site must feel alive, not static
+
+The hero section must impress immediately without appearing gimmicky or promotional.
+
+---
+
+### Hero Placement
+- Home page only
+- First visible section
+- Full-width (edge-to-edge background)
+- Large vertical height (minimum 75vh desktop)
+
+---
+
+### Core Hero Philosophy
+Indian buyers equate:
+- Movement = effort
+- Scale = credibility
+- Visual weight = seriousness
+
+The hero must balance show-off with control.
+
+---
+
+### Allowed Motion (STRICT)
+Only ONE motion type is allowed:
+
+✔ Slow scroll-based parallax on background image
+- Image moves slower than page scroll
+- Motion must be subtle and continuous
+- No zoom
+- No bounce
+- No easing theatrics
+
+Purpose:
+- Make the page feel alive
+- Signal investment and modernity
+- Add depth without distraction
+
+---
+
+### Forbidden Motion (ABSOLUTE)
+- No text animation
+- No fade-ins
+- No sliding elements
+- No auto-playing motion
+- No carousels
+- No video backgrounds
+
+Foreground content must remain rock-solid and stable.
+
+---
+
+### Content Structure (LOCKED)
+1. Primary headline (largest text on site)
+2. Supporting statement (short, factual)
+3. One primary call-to-action
+4. Supporting visual (background image)
+
+No additional elements allowed.
+
+---
+
+### Headline Rules
+- Direct
+- Declarative
+- Industrial, not marketing
+
+Good:
+“Manufacturers and Suppliers of Castor Oil and Castor Seed”
+
+Bad:
+“Delivering Excellence Worldwide”
+
+---
+
+### Visual Treatment
+- Background image preferred (real, industrial, product or commodity related)
+- If image is unavailable:
+  - Use brand green background
+  - Use layout dominance instead of imagery
+
+---
+
+### Optional Enhancement (ALLOWED)
+✔ Subtle dark overlay or gradient overlay
+- Used only to improve text contrast
+- Must be barely noticeable
+- No decorative gradients
+- No color effects
+
+---
+
+### Call-to-Action Rules
+- One primary button only
+- Solid brand green
+- Confident size
+- Neutral wording (Contact Us / Send Inquiry)
+
+---
+
+### Psychological Target
+Viewer reaction within 3 seconds:
+“Big company. Serious agro business. This is not a small setup.”
+
+---
+
+### Guardrails
+- No additional animation types without Phase 12 revision
+- Motion must never compete with content
+- Hero sets tone; rest of site stays calmer
+
+---
+
+### Locked Hero Content
+
+Hero Headline:
+"Manufacturers and Suppliers of Castor Oil and Castor Seed"
+
+Supporting Line:
+"Serving domestic and international markets with consistent quality and supply."
+
+Hero Image:
+- File: raw_assets/hero/home-hero.jpg
+- Description: Real industrial / product-related image used to convey scale and credibility
+- Motion: Slow scroll-based parallax only (as defined above)
+- Overlay: Subtle dark overlay allowed for text contrast
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hero Call-to-Action:
+- Label: "Request a Quote"
+- Destination: /contact
+- Purpose: Serious business and pricing inquiries

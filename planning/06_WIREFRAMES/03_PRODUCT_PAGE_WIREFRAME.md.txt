@@ -1,0 +1,53 @@
+PRODUCT PAGE TEMPLATE — WIREFRAME (LOW FIDELITY)
+
+HEADER
+- Corporate Identity / Logo
+- Global Navigation Bar
+- Utility Links
+
+SECTION 1 — PRODUCT IDENTIFICATION
+- Breadcrumb (Home > Products > Product Name)
+- Product Title (Scientific / Grade Name)
+- Product Classification:
+  - HS Code
+  - CAS Number (if applicable)
+- Status Label:
+  - Manufactured (Castor Oil)
+  - Traded / Sourced (Castor Seed)
+
+SECTION 2 — TECHNICAL SPECIFICATIONS
+LAYOUT: 2/3 Content (Left) + 1/3 At-a-Glance (Right)
+
+LEFT CONTENT
+- Product Overview & Origin
+- Application List (Industrial uses)
+- Specification Table (Parameters vs Values)
+- Packaging Options (ISO Tank, Flexi Tank, Drums, Bags)
+
+RIGHT AT-A-GLANCE
+- Product / Packaging Image Placeholder
+- Applicable Certifications
+- Action Buttons:
+  - Download Technical Data Sheet (TDS)
+  - Download Material Safety Data Sheet (MSDS)
+
+SECTION 3 — OPERATIONAL CONTEXT
+CONDITIONAL BLOCK
+- If Castor Oil:
+  - Manufacturing Process Highlight
+  - Link to Manufacturing & Quality Page
+- If Castor Seed:
+  - Sourcing & Quality Protocol
+  - Link to Quality / Compliance Page
+
+SECTION 4 — LOGISTICS
+- Minimum Order Quantity (MOQ)
+- Incoterms Supported (FOB, CIF, EXW)
+- Loading Port Information
+
+SECTION 5 — DIRECT ACTION
+- Inquiry Form: Request Quote for Product
+- Fields: Quantity, Destination Port, Packaging Preference, Company Name
+
+FOOTER
+- Standard Corporate Footer

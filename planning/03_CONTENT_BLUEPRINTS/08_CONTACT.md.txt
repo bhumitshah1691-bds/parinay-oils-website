@@ -1,0 +1,96 @@
+CONTACT — CONTENT BLUEPRINT
+
+SECTION A — CONTACT INFORMATION
+
+H1
+- Contact and location details
+
+SECTION 1 — BUSINESS CONTACT DETAILS
+H2: Contact Information
+Evidence Required:
+- Official company name
+- Physical address (Ahmedabad, Gujarat)
+- Email and phone contact
+Visual:
+- Minimal icons or map representation
+Must NOT Include:
+- Multiple contact variants
+- Informal communication channels
+
+SECTION 2 — LOCATION & PRESENCE
+H2: Location & Presence
+Evidence Required:
+- Clear geographic grounding
+- Operating hours or availability window
+Visual:
+- Map or location visual
+Must NOT Include:
+- Virtual office claims
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION B — INQUIRY / RFQ
+
+H1
+- Business inquiry initiation
+
+SECTION 1 — INQUIRY STRUCTURE
+H2: Business Inquiry
+Evidence Required:
+- Fields aligned to B2B inquiry (company, requirement, volume range, application)
+Visual:
+- Form layout placeholder
+Must NOT Include:
+- Marketing hooks
+- Mandatory low-quality fields
+
+SECTION 2 — EXPECTATION SETTING
+H2: Inquiry Expectations
+Evidence Required:
+- Response timelines (non-promissory)
+- Nature of follow-up
+Visual:
+- None or minimal
+Must NOT Include:
+- Sales pressure language
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

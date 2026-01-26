@@ -1,0 +1,84 @@
+# Phase 12 — Visual Impact Layer
+## 06_EXECUTION_GUARDRAILS
+
+This file defines strict execution boundaries for Phase 12.
+Cursor must treat this file as a hard constraint layer.
+
+---
+
+## Scope of Execution
+
+Phase 12 execution is limited to:
+- Visual presentation
+- Layout framing
+- Image placement
+- UI polish
+
+Phase 12 must NOT alter:
+- Content meaning
+- Product claims
+- Legal or compliance positioning
+- Navigation structure
+
+---
+
+## Absolute Prohibitions
+
+The following are strictly forbidden:
+
+- Adding or rewriting text content
+- Introducing new images not listed in Phase 9.5
+- Implied certifications or compliance
+- Fake scale or exaggerated visuals
+- Sliders, carousels, video backgrounds
+- Unapproved animations or motion effects
+- Decorative icons without functional meaning
+
+---
+
+## Animation Rules
+
+Allowed:
+- Slow scroll-based parallax on Home hero background only
+- Subtle hover transitions on interactive elements
+
+Forbidden:
+- Text animations
+- Entry animations
+- Auto-play motion
+- Parallax outside hero section
+
+---
+
+## Image Usage Control
+
+- Images may only be used where explicitly allowed
+- Images must match their purpose as defined in `01_IMAGES_INVENTORY.md`
+- No image reuse across unrelated sections
+
+---
+
+## Content Authority
+
+All factual content is governed by:
+- `planning/09_CONTENT_FREEZE/`
+
+If any conflict arises:
+- Content Freeze overrides Visual Impact Layer
+
+---
+
+## Change Discipline
+
+- One execution task per Cursor run
+- No “improve UI” or open-ended instructions
+- Each Cursor task must reference specific Phase 12 files
+
+---
+
+## Completion Rule
+
+Execution is considered complete only when:
+- Visual changes align exactly with Phase 12 planning
+- No guardrails are violated
+- No undocumented changes exist

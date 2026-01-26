@@ -1,0 +1,256 @@
+PHASE 5 — BRAND SYSTEM
+
+STATUS
+- Locked
+
+PURPOSE
+- Define minimal visual and tonal rules
+- Ensure consistency across the website
+- Prevent over-design and stylistic drift
+
+PRINCIPLE
+- Industrial clarity over visual creativity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TONE & VISUAL INTENT
+
+CORE IMPRESSION
+- Serious
+- Calm
+- Confident
+- Export-grade
+- Long-term oriented
+
+VISUAL PERSONALITY
+- Clean, uncluttered layouts
+- Generous whitespace
+- Strong grid and alignment discipline
+- Visual calm over visual excitement
+
+WHAT “VISUALLY APPEALING” MEANS
+- Precision, not decoration
+- Balance, not density
+- Consistency, not variation
+- Substance-first presentation
+
+WHAT IT DOES NOT MEAN
+- Flashy animations
+- Bright or trendy colors
+- Decorative textures or patterns
+- Marketing-style hero hype
+
+DECISION FILTER
+If a visual choice feels:
+- Louder → reject
+- Trendy → reject
+- Salesy → reject
+
+If a visual choice feels:
+- Clear → accept
+- Calm → accept
+- Credible → accept
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COLOR SYSTEM
+
+PHILOSOPHY
+- Colors exist to support readability and trust
+- Color must never become the hero
+
+PRIMARY COLOR
+- Deep neutral (charcoal / deep blue / dark green family)
+- Used for headings, navigation, and anchors
+- Must feel stable and industrial, not vibrant
+
+SECONDARY COLOR
+- Muted accent only
+- Used sparingly for dividers, highlights, or indicators
+- Must not compete with primary color
+
+NEUTRALS
+- White or off-white backgrounds
+- Light grey for section separation
+- High contrast for readability
+
+USAGE RULES
+- Maximum 2 brand colors + neutrals
+- No gradients
+- No bright saturation
+- No color-coded meaning without labels
+
+DECISION FILTER
+If a color choice feels:
+- Decorative → reject
+- Fashion-led → reject
+- Attention-seeking → reject
+
+If a color choice feels:
+- Quiet → accept
+- Professional → accept
+- Timeless → accept
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TYPOGRAPHY SYSTEM
+
+PHILOSOPHY
+- Typography carries authority and clarity
+- Fewer fonts, used well, outperform variety
+
+FONT COUNT
+- Maximum 2 font families total
+
+PRIMARY TYPEFACE (HEADINGS)
+- Sans-serif
+- Neutral, modern, highly legible
+- No stylized or decorative character
+- Used for H1–H3 and navigation
+
+SECONDARY TYPEFACE (BODY)
+- Sans-serif or serif (only if extremely readable)
+- Optimized for long-form reading
+- Used for paragraphs, lists, and captions
+
+SIZE & HIERARCHY RULES
+- Clear visual separation between H1, H2, H3
+- Body text must never feel dense or cramped
+- Line height prioritized over compactness
+
+USAGE RULES
+- No font mixing within a section
+- No all-caps paragraphs
+- No novelty weights
+- Consistency across all pages
+
+DECISION FILTER
+If typography feels:
+- Stylish → reject
+- Trendy → reject
+- Decorative → reject
+
+If typography feels:
+- Calm → accept
+- Authoritative → accept
+- Effortless to read → accept
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LAYOUT & SPACING SYSTEM
+
+PHILOSOPHY
+- Space is a design element, not empty area
+- Clarity comes from separation, not compression
+
+LAYOUT RULES
+- Content centered within a consistent max-width
+- Predictable column structure
+- Alignment over decoration
+
+SECTION SPACING
+- Clear vertical separation between sections
+- Sections must visually “breathe”
+- No stacked sections without spacing reset
+
+CONTENT DENSITY
+- One primary idea per section
+- Avoid multi-column text blocks unless necessary
+- Lists preferred over paragraphs when possible
+
+RESPONSIVE BEHAVIOR
+- Desktop-first layouts
+- Mobile layouts must simplify, not compress
+- Spacing preserved across breakpoints
+
+USAGE RULES
+- No edge-to-edge text blocks
+- No crowded footers
+- No visual noise
+
+DECISION FILTER
+If layout feels:
+- Tight → reject
+- Busy → reject
+- Over-designed → reject
+
+If layout feels:
+- Open → accept
+- Ordered → accept
+- Effortless → accept

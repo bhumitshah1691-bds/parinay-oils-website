@@ -1,0 +1,59 @@
+# Phase 9.5 — Content & Asset Freeze
+## 05_LEGAL_AND_TRADE_DETAILS
+
+This file defines how legal, trade, and regulatory information is presented on the website.
+
+All references must remain general and non-committal unless verified.
+
+---
+
+## HSN Codes
+
+HSN codes for products are not publicly displayed on the website.
+
+Reason:
+- Codes may vary by product grade, use, or jurisdiction
+- Disclosure without confirmation may lead to errors
+
+Allowed statement:
+“HSN codes and trade classifications are available upon request.”
+
+---
+
+## Export & Trade Representation
+
+Allowed:
+- “Serving domestic and international markets”
+- “Export-oriented supply”
+
+Forbidden:
+- Listing of specific countries
+- Claims of export volume or reach
+- Use of flags or country icons
+
+---
+
+## Regulatory Representation
+
+The website must not:
+- Claim regulatory approvals
+- Imply government authorization
+- Display statutory numbers or licenses
+
+Allowed:
+- “Regulatory documentation can be shared upon inquiry.”
+
+---
+
+## Disclaimers
+
+Where applicable, include general disclaimers such as:
+“Information provided on this website is indicative and subject to confirmation.”
+
+---
+
+## Change Control
+
+If verified legal or trade documentation is provided:
+- This file must be updated first
+- Only then may details be added to pages or documents

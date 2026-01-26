@@ -1,0 +1,239 @@
+MANUFACTURING & QUALITY — CONTENT BLUEPRINT
+
+SECTION A — MANUFACTURING PROCESS
+
+H1
+- Manufacturing process overview
+
+SECTION 1 — PROCESS FLOW
+H2: Manufacturing Process
+Evidence Required:
+- High-level end-to-end flow (seed intake → processing → storage → dispatch)
+- Clear control stages without technical disclosure
+Visual:
+- Simplified process flow diagram
+Must NOT Include:
+- Exact temperatures, pressures, or formulas
+- Equipment brand names
+
+SECTION 2 — PROCESS CONTROL
+H2: Process Control & Consistency
+Evidence Required:
+- Description of checkpoints and monitoring approach
+- Emphasis on repeatability
+Visual:
+- Abstract process-control visuals
+Must NOT Include:
+- Proprietary methods
+- Competitive comparisons
+
+SECTION 3 — SAFETY & HANDLING
+H2: Safety & Handling
+Evidence Required:
+- General safety practices in manufacturing and storage
+Visual:
+- Safety or compliance visuals
+Must NOT Include:
+- Incident data
+- Regulatory jargon without context
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION B — QUALITY ASSURANCE & TESTING
+
+H1
+- Quality assurance and testing framework
+
+SECTION 1 — QUALITY PHILOSOPHY
+H2: Quality Assurance Approach
+Evidence Required:
+- Preventive quality mindset
+- Integration of QA within manufacturing stages
+Visual:
+- QA workflow or checkpoint visuals
+Must NOT Include:
+- Marketing language
+- Absolute quality claims
+
+SECTION 2 — TESTING PARAMETERS
+H2: Testing & Verification
+Evidence Required:
+- High-level testing categories (physical, chemical, visual)
+- Internal testing discipline without numeric disclosure
+Visual:
+- Laboratory or testing environment visuals
+Must NOT Include:
+- Detailed test values
+- Claims of superiority
+
+SECTION 3 — DOCUMENTATION & TRACEABILITY
+H2: Documentation & Traceability
+Evidence Required:
+- Batch-level documentation concept
+- Traceability from production to dispatch
+Visual:
+- Document-flow or traceability diagrams
+Must NOT Include:
+- Client-specific data
+- Regulatory citations unless necessary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION C — CERTIFICATIONS & COMPLIANCE
+
+H1
+- Certifications and compliance overview
+
+SECTION 1 — CERTIFICATION LANDSCAPE
+H2: Certifications Held
+Evidence Required:
+- List of applicable certifications with scope (quality, safety, management)
+- Clarification of what each certification applies to
+Visual:
+- Certification placeholders (no logos yet)
+Must NOT Include:
+- Irrelevant certifications
+- Visual clutter
+
+SECTION 2 — COMPLIANCE PRACTICES
+H2: Compliance Practices
+Evidence Required:
+- How compliance is operationally maintained
+- Internal responsibility for compliance
+Visual:
+- Process or governance visuals
+Must NOT Include:
+- Legal disclaimers
+- Overly technical regulatory language
+
+SECTION 3 — AUDIT & REVIEW
+H2: Audit & Review Discipline
+Evidence Required:
+- Internal and external audit approach (high-level)
+- Continuous improvement mindset
+Visual:
+- Review-cycle diagrams
+Must NOT Include:
+- Audit outcomes
+- Sensitive findings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SECTION D — SUPPLY CHAIN & LOGISTICS
+
+H1
+- Supply chain and logistics capability
+
+SECTION 1 — STORAGE & INVENTORY
+H2: Storage & Inventory Management
+Evidence Required:
+- Storage approach for Castor Oil and Castor Seed
+- Inventory discipline and segregation
+Visual:
+- Warehouse or storage visuals
+Must NOT Include:
+- Capacity figures unless verified
+
+SECTION 2 — DISPATCH & TRANSPORT
+H2: Dispatch & Transport
+Evidence Required:
+- Modes of transport handled (road, port-linked movement)
+- Dispatch process clarity
+Visual:
+- Dispatch or transport-context imagery
+Must NOT Include:
+- Delivery guarantees
+- Transit-time promises
+
+SECTION 3 — EXPORT LOGISTICS
+H2: Export Logistics
+Evidence Required:
+- Export documentation handling
+- Coordination with ports and logistics partners
+Visual:
+- Export-process diagrams
+Must NOT Include:
+- Named clients
+- Country-specific claims unless factual
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+# Phase 9.5 — Content & Asset Freeze
+## 07_COMPANY_IDENTITY
+
+This file defines the official company identity and contact details.
+All references across the website must originate from this file.
+
+---
+
+## Legal Entity Name
+Parinay Go India LLP
+
+---
+
+## Business Name (Website Usage)
+Parinay Oils
+
+---
+
+## Registered Address
+114, 1st/F, Shri Ghantakarna Mall,  
+Near Ghantakarna Market, Sarangpur,  
+Ahmedabad, Gujarat – 380001, India
+
+---
+
+## Contact Details
+Phone: +91 88660 99050  
+Email: parinaytrade@gmail.com
+
+---
+
+## Usage Rules
+- Address and contact details must remain consistent across:
+  - Footer
+  - Contact page
+  - Any inquiry references
+- No alternate spellings or abbreviations allowed
+
+---
+
+## Change Control
+Any modification requires update to this file first.

@@ -1,0 +1,35 @@
+# Phase 10 — Visual & UX System
+## 01_VISUAL_GOAL
+
+### Target Perception
+- Export-grade
+- Trust-first
+- Industrial premium
+- Calm, competent, established
+
+### Primary Audience
+- B2B buyers
+- Procurement teams
+- Overseas distributors and partners
+
+### Emotional Outcome
+The site should immediately communicate operational seriousness and long-term reliability without trying to impress.
+
+### Must Feel Like
+- Manufacturing-led credibility
+- Process-driven organization
+- Established exporter, not an experiment
+
+### Must NOT Feel Like
+- Startup or SaaS
+- FMCG or D2C brand
+- Flashy, animated, or promotional
+- Template-driven or theme-based
+
+### Reference Types (not brands)
+- Industrial exporters
+- Chemical and commodity manufacturers
+- Infrastructure and materials suppliers
+
+### Success Test
+If all visuals were removed, the site should still feel complete and credible. Visuals must only reinforce trust, never compensate for missing substance.

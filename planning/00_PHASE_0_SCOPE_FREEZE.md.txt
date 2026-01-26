@@ -1,0 +1,85 @@
+PROJECT: Parinay Oils – Corporate Website
+PHASE: 0 — Strategic Intent & Constraints (FROZEN)
+
+PRIMARY OBJECTIVE
+- Establish a credible digital presence for Parinay Oils
+- Position the company as a serious, export-ready manufacturer and trader of castor oil
+- Website is informational and brand-driven, not conversion-driven
+
+REFERENCE CONTEXT (COMPETITIVE LANDSCAPE)
+The website must be inspired by the structural depth, seriousness, and restraint of:
+- https://www.gokulagro.com/
+- https://www.ambujasolvex.com/
+- https://gokuloverseas.com/
+- https://modioilmill.com/
+- https://www.jayantagro.com/
+- https://girnarindustries.com/
+
+Inspiration is allowed for:
+- Information hierarchy
+- Section depth
+- Tone and restraint
+- Trust-building patterns
+
+Copying is NOT allowed for:
+- Visual design
+- Text
+- Claims
+- Layouts
+
+TARGET AUDIENCE
+- B2B buyers (domestic and international)
+- Importers / exporters
+- Distributors
+- Industry partners
+- Regulatory or compliance reviewers (secondary)
+
+POSITIONING PRINCIPLES
+- Manufacturing-first mindset
+- Trading as a capability, not the core identity
+- Ahmedabad, Gujarat as an industrial strength signal
+- Conservative, export-grade communication
+- Confidence through facts, not adjectives
+
+SCOPE (HARD LIMITS)
+- Static informational website
+- Maximum 25 pages total
+- Desktop-first, mobile responsive
+- English language only (unless explicitly expanded later)
+
+EXCLUSIONS (NON-NEGOTIABLE)
+- Ecommerce or pricing
+- User accounts or dashboards
+- Lead funnels or aggressive CTAs
+- Blog growth strategy
+- Marketing gimmicks
+- Claims that cannot be verified with proof
+
+CONTENT PHILOSOPHY
+- Inform, not persuade
+- Explain, not sell
+- Show capability, not ambition
+- Clarity over creativity
+- Substance over style
+
+DESIGN PHILOSOPHY
+- Industrial and minimal
+- Low visual noise
+- Real assets over stock imagery
+- Structure before aesthetics
+- Function over flair
+
+TECHNICAL CONSTRAINTS
+- No CMS unless strictly necessary
+- SEO fundamentals only (no content marketing)
+- No heavy animations or performance-heavy effects
+
+DECISION RULE
+When in doubt, ask:
+“Would a serious international buyer trust this?”
+
+If the answer is unclear, remove or simplify.
+
+CHANGE CONTROL
+- Any deviation from this document resets planning to Phase 0
+- This file is frozen after approval and must not be edited

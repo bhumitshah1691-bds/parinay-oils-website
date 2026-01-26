@@ -1,0 +1,87 @@
+# Phase 9.5 — Content & Asset Freeze
+## 02_PRODUCTS_CONTENT_FREEZE
+
+This file defines the final, factual product content for the website.
+Text in this file may not be rewritten for marketing or design purposes.
+
+---
+
+## Product Scope
+
+Parinay Oils operates in two distinct capacities:
+
+1. Manufactured Product
+- Castor Oil
+
+2. Traded / Sourced Product
+- Castor Seed
+
+Manufacturing activities are limited strictly to Castor Oil.
+Castor Seed is supplied through sourcing and trading arrangements.
+
+This separation must remain explicit across the site.
+
+---
+
+## Castor Oil (Manufactured)
+
+### Product Description
+Castor Oil is manufactured by Parinay Oils using controlled processing methods with a focus on consistency, purity, and buyer-specific requirements.
+
+The product is supplied for industrial and commercial applications where castor oil is used as a base input or functional component.
+
+### Positioning Rules
+- Refer to Castor Oil as a manufactured product
+- Do not imply downstream processing beyond oil extraction
+- Do not imply retail or consumer-grade positioning
+
+---
+
+## Castor Seed (Traded / Sourced)
+
+### Product Description
+Castor Seed is supplied by Parinay Oils through external sourcing and trading arrangements aligned with quality and supply requirements.
+
+The company does not process or manufacture castor seed products.
+
+### Positioning Rules
+- Clearly label Castor Seed as traded or sourced
+- Do not imply manufacturing, processing, or value addition
+- Do not imply storage or grading facilities unless confirmed
+
+---
+
+## Common Content Guardrails
+
+- No performance claims
+- No quality superlatives
+- No certifications implied unless explicitly listed in Phase 9.5 / 04
+- No application guarantees
+
+If details are not available, use:
+“Specifications available on request.”
+
+---
+
+## Approved Terminology
+
+Allowed:
+- Manufacturer
+- Supplier
+- Traded product
+- Sourced material
+- Industrial applications
+
+Forbidden:
+- Leading
+- Premium
+- Best-in-class
+- World-class
+- Certified (unless explicitly listed)
+
+---
+
+## Content Freeze Rule
+
+This content is frozen.
+Any modification requires explicit Phase 9.5 revision.

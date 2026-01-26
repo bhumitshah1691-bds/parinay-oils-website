@@ -1,0 +1,29 @@
+# Phase 10 — Visual & UX System
+## 03_IMAGE_STRATEGY
+
+### Purpose of Images
+- Reinforce credibility
+- Show real operations and products
+- Reduce abstraction where clarity helps
+
+### Allowed Image Types
+- Manufacturing facilities
+- Product close-ups (real)
+- Warehousing, logistics, export handling
+- Process-oriented visuals
+
+### Forbidden Image Types
+- Generic stock models
+- Fake laboratory imagery
+- Over-stylized abstract graphics
+- Lifestyle or aspirational imagery
+
+### Placement Rules
+- Images must support text, not replace it
+- One image per major section maximum
+- No image-only sections
+
+### Quantity Control
+- Home: limited, purposeful
+- Product pages: minimal, factual
+- Content pages: optional, not required

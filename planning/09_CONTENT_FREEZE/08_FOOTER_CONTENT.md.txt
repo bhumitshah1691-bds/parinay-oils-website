@@ -1,0 +1,55 @@
+# Phase 9.5 — Content & Asset Freeze
+## 08_FOOTER_CONTENT
+
+This file defines all footer-level textual content.
+
+---
+
+## Copyright Line
+© Parinay Oils. All rights reserved.
+
+---
+
+## Usage Rules
+- Must appear in footer on all pages
+- Year may be dynamic (system-generated)
+- Text content must not be altered
+
+---
+
+## Change Control
+Any footer text change requires update to this file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## Attribution Line
+Created with ❤️ by Prism-IQ
+
+---
+
+## Attribution Rules
+- Must be visually secondary to copyright
+- Must not compete with company branding
+- Heart symbol allowed as text character only
+- No external link unless explicitly approved

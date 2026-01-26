@@ -1,0 +1,75 @@
+# Phase 12 — Visual Impact Layer
+## 01_BRAND_COLOR_SYSTEM
+
+### Objective
+Create immediate visual authority for Indian buyers using logo-led color confidence, while preserving export-grade seriousness and long-term credibility.
+
+Color must signal:
+- Agro-industrial scale
+- Commodity strength
+- Stability and trust
+- Established operations
+
+### Color Source of Truth
+The Parinay Oils logo is the sole color authority.
+
+No colors may be introduced that are not visually compatible with the logo greens.
+
+### Primary Brand Color
+Deep Industrial Green (from logo)
+
+Usage:
+- Header accents
+- Hero section emphasis
+- Primary buttons
+- Key separators and highlights
+
+Rules:
+- Must be visible above the fold
+- Must repeat consistently across pages
+- Never decorative
+- Never used in gradients
+
+### Secondary Brand Color
+Dark Forest Green / Charcoal-Green
+
+Usage:
+- Headings
+- Footer background
+- Strong contrast sections
+
+Purpose:
+- Anchor seriousness
+- Avoid “fresh FMCG” feel
+- Maintain export-grade tone
+
+### Background Neutrals
+- Off-white / warm light grey for main sections
+- Very light green-tinted neutral blocks for section framing
+
+Rules:
+- No pure white pages
+- No harsh contrast
+- Backgrounds must feel calm and agricultural, not clinical
+
+### Accent Usage (Strict)
+Allowed:
+- Thin lines
+- Dividers
+- Hover states
+- Underlines for emphasis
+
+Forbidden:
+- Bright accent colors
+- Decorative shapes
+- Visual noise
+- Gradient effects
+
+### Psychological Target
+At first glance:
+“Established agro company. Serious operator. Trustworthy supplier.”
+
+### Guardrails
+- No new colors without Phase 12 revision
+- No gradients, glass effects, or glow
+- Green must communicate authority, not softness

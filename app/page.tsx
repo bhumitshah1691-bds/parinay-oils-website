@@ -147,6 +147,7 @@ export default function Home() {
             {/* Visual Column - Founder Image */}
             <div style={{ 
               display: 'flex', 
+              flexDirection: 'column',
               justifyContent: 'center', 
               alignItems: 'center',
               width: '100%',
@@ -171,6 +172,26 @@ export default function Home() {
                     objectPosition: 'center 22%'
                   }}
                 />
+              </div>
+              <div style={{ 
+                marginTop: '0.75rem',
+                textAlign: 'center'
+              }}>
+                <p style={{ 
+                  fontSize: '0.875rem', 
+                  color: '#444', 
+                  margin: 0
+                }}>
+                  Paridhi Singh Solanki
+                </p>
+                <p style={{ 
+                  fontSize: '0.8125rem', 
+                  color: '#666', 
+                  margin: 0,
+                  marginTop: '0.25rem'
+                }}>
+                  Founder and MD, Parinay Oils
+                </p>
               </div>
             </div>
             {/* Content Column */}

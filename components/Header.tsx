@@ -1,31 +1,33 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Header() {
   return (
     <header style={{ 
-      padding: '1.25rem 3rem', 
-      borderBottom: '1px solid #e0e0e0',
+      padding: '1rem 0', 
+      backgroundColor: '#ffffff',
+      borderBottom: '1px solid #e8e8e8',
+      position: 'sticky',
+      top: 0,
+      zIndex: 100,
     }}>
       <div style={{ 
         display: 'flex', 
         justifyContent: 'space-between', 
         alignItems: 'center',
-        maxWidth: '1400px',
+        maxWidth: '1280px',
         margin: '0 auto',
+        padding: '0 3rem',
       }}>
         {/* Logo Block */}
-        <div style={{ 
-          flexShrink: 0,
-          marginRight: '3rem',
-        }}>
+        <div style={{ flexShrink: 0 }}>
           <Link 
             href="/" 
             style={{ 
               textDecoration: 'none', 
-              color: 'inherit',
-              fontSize: '1.125rem',
-              fontWeight: 500,
-              letterSpacing: '0.01em',
+              color: '#0f3d28',
+              fontSize: '1.25rem',
+              fontWeight: 600,
+              letterSpacing: '-0.01em',
             }}
           >
             Parinay Oils
@@ -33,54 +35,112 @@ export default function Header() {
         </div>
 
         {/* Primary Navigation */}
-        <nav style={{ flex: 1 }}>
+        <nav>
           <ul style={{ 
             display: 'flex', 
             gap: '2rem', 
             listStyle: 'none', 
             margin: 0, 
             padding: 0,
-            justifyContent: 'center',
+            alignItems: 'center',
           }}>
             <li>
-              <Link href="/" style={{ fontSize: '0.9375rem', letterSpacing: '0.005em' }}>Home</Link>
+              <Link 
+                href="/" 
+                style={{ 
+                  fontSize: '0.875rem', 
+                  color: '#333',
+                  textDecoration: 'none',
+                  fontWeight: 500,
+                  transition: 'color 150ms ease',
+                }}
+                className="hover:text-brand-green"
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="/about" style={{ fontSize: '0.9375rem', letterSpacing: '0.005em' }}>About Us</Link>
+              <Link 
+                href="/about" 
+                style={{ 
+                  fontSize: '0.875rem', 
+                  color: '#333',
+                  textDecoration: 'none',
+                  fontWeight: 500,
+                  transition: 'color 150ms ease',
+                }}
+                className="hover:text-brand-green"
+              >
+                About
+              </Link>
             </li>
             <li>
-              <Link href="/products" style={{ fontSize: '0.9375rem', letterSpacing: '0.005em' }}>Products</Link>
+              <Link 
+                href="/products" 
+                style={{ 
+                  fontSize: '0.875rem', 
+                  color: '#333',
+                  textDecoration: 'none',
+                  fontWeight: 500,
+                  transition: 'color 150ms ease',
+                }}
+                className="hover:text-brand-green"
+              >
+                Products
+              </Link>
             </li>
             <li>
-              <Link href="/manufacturing-quality" style={{ fontSize: '0.9375rem', letterSpacing: '0.005em' }}>Manufacturing &amp; Quality</Link>
+              <Link 
+                href="/manufacturing-quality" 
+                style={{ 
+                  fontSize: '0.875rem', 
+                  color: '#333',
+                  textDecoration: 'none',
+                  fontWeight: 500,
+                  transition: 'color 150ms ease',
+                }}
+                className="hover:text-brand-green"
+              >
+                Manufacturing
+              </Link>
             </li>
             <li>
-              <Link href="/applications" style={{ fontSize: '0.9375rem', letterSpacing: '0.005em' }}>Applications &amp; Industries</Link>
+              <Link 
+                href="/applications" 
+                style={{ 
+                  fontSize: '0.875rem', 
+                  color: '#333',
+                  textDecoration: 'none',
+                  fontWeight: 500,
+                  transition: 'color 150ms ease',
+                }}
+                className="hover:text-brand-green"
+              >
+                Applications
+              </Link>
             </li>
             <li>
-              <Link href="/sustainability" style={{ fontSize: '0.9375rem', letterSpacing: '0.005em' }}>Sustainability</Link>
-            </li>
-            <li>
-              <Link href="/insights" style={{ fontSize: '0.9375rem', letterSpacing: '0.005em' }}>Insights</Link>
-            </li>
-            <li>
-              <Link href="/contact" style={{ fontSize: '0.9375rem', letterSpacing: '0.005em' }}>Contact Us</Link>
+              <Link 
+                href="/contact" 
+                style={{ 
+                  display: 'inline-block',
+                  padding: '0.5rem 1.25rem',
+                  backgroundColor: '#1a5a3c',
+                  color: '#ffffff',
+                  fontSize: '0.875rem',
+                  fontWeight: 500,
+                  textDecoration: 'none',
+                  borderRadius: '4px',
+                  transition: 'background-color 150ms ease',
+                }}
+                className="hover:bg-brand-green-dark"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>
-
-        {/* Utility Links */}
-        <div style={{ 
-          display: 'flex', 
-          gap: '1.5rem',
-          marginLeft: '3rem',
-          flexShrink: 0,
-          fontSize: '0.875rem',
-        }}>
-          <span>Language</span>
-          <span>Search</span>
-        </div>
       </div>
     </header>
-  )
+  );
 }

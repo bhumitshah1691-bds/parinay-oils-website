@@ -1,59 +1,70 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ApplicationsPage() {
   return (
-    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
-        {/* SECTION 1 — ORIENTATION */}
-        <section style={{ paddingTop: '2rem', paddingBottom: '2rem', marginBottom: '2rem', borderBottom: '1px solid #e5e5e5' }}>
-          {/* Breadcrumb Navigation */}
-          <nav style={{ marginBottom: '1rem', fontSize: '0.875rem', color: '#666' }}>
-            <Link href="/" style={{ color: '#666', textDecoration: 'none' }}>Home</Link>
-            {' > '}
-            <span>Applications & Industries</span>
-          </nav>
+    <>
+      {/* SECTION 1 — PAGE HEADER */}
+      {/* Background: Brand Green */}
+      <section className="master-section bg-section-brand">
+        <div className="master-container">
+          <div className="master-grid">
+            {/* Visual Column */}
+            <div className="master-visual" style={{ minHeight: '400px' }}>
+              <Image
+                src="/company/about.jpg"
+                alt="Industrial applications"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+            {/* Content Column */}
+            <div className="master-content">
+              {/* Breadcrumb */}
+              <nav style={{ marginBottom: '1.5rem', fontSize: '0.875rem', opacity: 0.8 }}>
+                <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>Home</Link>
+                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+                <span>Applications & Industries</span>
+              </nav>
 
-          {/* Page Title */}
-          <h1 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Applications & Industries</h1>
+              <h1 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>
+                Applications & Industries
+              </h1>
+              
+              <p style={{ fontSize: '1.125rem', lineHeight: '1.8', marginBottom: '1.5rem' }}>
+                Industry-level application areas for Castor Oil and Castor Seed.
+              </p>
+              
+              <p style={{ fontSize: '1rem', lineHeight: '1.7', opacity: 0.9 }}>
+                Applications listed are indicative only. Final application validation is the responsibility of the buyer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          {/* Scope / Context Description */}
-          <p style={{ color: '#555', maxWidth: '800px' }}>
-            Industry-level application areas for Castor Oil and Castor Seed. Applications listed are indicative only. Final application validation is the responsibility of the buyer.
-          </p>
-        </section>
-
-        {/* SECTION 2 — INFORMATION ARCHITECTURE */}
-        <section style={{ display: 'flex', gap: '4rem', paddingTop: '1rem', paddingBottom: '3rem' }}>
-          {/* SIDEBAR */}
-          <aside style={{ width: '250px', flexShrink: 0 }}>
-            {/* Sub-navigation */}
-            <nav style={{ marginBottom: '2rem' }}>
-              <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem', borderBottom: '1px solid #e5e5e5', paddingBottom: '0.5rem' }}>
-                On This Page
-              </h3>
-              <ul style={{ listStyle: 'none', margin: 0, padding: 0 }}>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#industry-application-areas" style={{ color: '#333', textDecoration: 'none' }}>Industry Application Areas</a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#product-industry-mapping" style={{ color: '#333', textDecoration: 'none' }}>Product to Industry Mapping</a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#usage-clarification" style={{ color: '#333', textDecoration: 'none' }}>Usage Clarification</a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#inquiry" style={{ color: '#333', textDecoration: 'none' }}>Inquiry</a>
-                </li>
-              </ul>
-            </nav>
-          </aside>
-
-          {/* MAIN CONTENT */}
-          <div style={{ flex: 1, maxWidth: '800px' }}>
-            {/* Content Block A: Industry Application Areas */}
-            <article id="industry-application-areas" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Industry Application Areas</h2>
-              <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>Industries Served:</p>
-              <ul style={{ lineHeight: 1.7, marginLeft: '1.5rem', marginBottom: '1rem' }}>
+      {/* SECTION 2 — INDUSTRIES SERVED */}
+      {/* Background: Light Neutral */}
+      <section className="master-section bg-section-light">
+        <div className="master-container">
+          <div className="master-grid-reverse">
+            {/* Content Column */}
+            <div className="master-content">
+              <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
+                Industries Served
+              </h2>
+              
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444', marginBottom: '1.5rem' }}>
+                Products supplied by Parinay Oils are used across multiple industry segments:
+              </p>
+              
+              <ul style={{ 
+                color: '#444', 
+                paddingLeft: '1.5rem', 
+                fontSize: '1.0625rem', 
+                lineHeight: '2',
+                marginBottom: '1.5rem'
+              }}>
                 <li>Industrial manufacturing</li>
                 <li>Pharmaceuticals</li>
                 <li>Cosmetics & personal care</li>
@@ -62,19 +73,36 @@ export default function ApplicationsPage() {
                 <li>Chemicals</li>
                 <li>Agriculture-related processing</li>
               </ul>
-              <p style={{ lineHeight: 1.7 }}>
+              
+              <p style={{ fontSize: '0.9375rem', color: '#666' }}>
                 Application listings are indicative and non-exhaustive.
               </p>
-            </article>
+            </div>
+            {/* Visual Column */}
+            <div className="master-visual">
+              <Image
+                src="/facility/processing.jpg"
+                alt="Industrial manufacturing"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Content Block B: Product to Industry Mapping */}
-            <article id="product-industry-mapping" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Product to Industry Mapping</h2>
-              
-              <p style={{ lineHeight: 1.7, marginBottom: '0.5rem' }}>
-                <strong>Castor Oil:</strong>
-              </p>
-              <ul style={{ lineHeight: 1.7, marginLeft: '1.5rem', marginBottom: '1.5rem' }}>
+      {/* SECTION 3 — PRODUCT MAPPING */}
+      {/* Background: Brand Green */}
+      <section className="master-section bg-section-brand">
+        <div className="master-container">
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem' }}>
+            {/* Castor Oil */}
+            <div>
+              <span className="badge badge-light" style={{ marginBottom: '1rem' }}>Manufactured</span>
+              <h2 style={{ fontSize: '1.75rem', marginBottom: '1.25rem', marginTop: '0.75rem' }}>
+                Castor Oil Applications
+              </h2>
+              <ul style={{ paddingLeft: '1.5rem', fontSize: '1.0625rem', lineHeight: '2' }}>
                 <li>Industrial manufacturing</li>
                 <li>Pharmaceuticals</li>
                 <li>Cosmetics & personal care</li>
@@ -82,62 +110,90 @@ export default function ApplicationsPage() {
                 <li>Paints & coatings</li>
                 <li>Chemicals</li>
               </ul>
+              <div style={{ marginTop: '1.5rem' }}>
+                <Link href="/products/castor-oil" className="btn-primary-light">
+                  View Castor Oil Details
+                </Link>
+              </div>
+            </div>
 
-              <p style={{ lineHeight: 1.7, marginBottom: '0.5rem' }}>
-                <strong>Castor Seed:</strong>
-              </p>
-              <ul style={{ lineHeight: 1.7, marginLeft: '1.5rem' }}>
+            {/* Castor Seed */}
+            <div>
+              <span className="badge badge-light" style={{ marginBottom: '1rem' }}>Traded / Sourced</span>
+              <h2 style={{ fontSize: '1.75rem', marginBottom: '1.25rem', marginTop: '0.75rem' }}>
+                Castor Seed Applications
+              </h2>
+              <ul style={{ paddingLeft: '1.5rem', fontSize: '1.0625rem', lineHeight: '2' }}>
                 <li>Industrial processing</li>
                 <li>Agricultural commodity trading</li>
                 <li>Oil extraction and downstream processing</li>
               </ul>
-            </article>
+              <div style={{ marginTop: '1.5rem' }}>
+                <Link href="/products/castor-seed" className="btn-primary-light">
+                  View Castor Seed Details
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Content Block C: Usage Clarification */}
-            <article id="usage-clarification" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Usage Clarification</h2>
-              <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>
+      {/* SECTION 4 — USAGE CLARIFICATION */}
+      {/* Background: Light Neutral */}
+      <section className="master-section bg-section-light">
+        <div className="master-container">
+          <div className="master-grid">
+            {/* Visual Column */}
+            <div className="master-visual">
+              <Image
+                src="/facility/warehouse.jpg"
+                alt="Product handling"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+            {/* Content Column */}
+            <div className="master-content">
+              <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
+                Usage Clarification
+              </h2>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444', marginBottom: '1.5rem' }}>
                 Applications listed on this page are provided for general reference only. Product performance, suitability, and regulatory compliance depend on specific use cases, formulations, and destination market requirements.
               </p>
-              <p style={{ lineHeight: 1.7 }}>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444' }}>
                 Buyers are responsible for validating end-use suitability and ensuring compliance with applicable regulations.
               </p>
-            </article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Content Block D: Inquiry */}
-            <article id="inquiry" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Inquiry</h2>
-              <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>
+      {/* SECTION 5 — INQUIRY CTA */}
+      {/* Background: Brand Green */}
+      <section className="master-section bg-section-brand" style={{ padding: '4rem 0' }}>
+        <div className="master-container">
+          <div style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            justifyContent: 'space-between',
+            gap: '3rem'
+          }}>
+            <div style={{ flex: 1 }}>
+              <h2 style={{ fontSize: '1.75rem', marginBottom: '1rem' }}>
+                Application Questions?
+              </h2>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.7', opacity: 0.95 }}>
                 For application-specific questions or additional technical information, please contact Parinay Oils through the official inquiry channel.
               </p>
-              <p style={{ lineHeight: 1.7 }}>
-                Detailed guidance is provided based on product scope and destination requirements.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        {/* SECTION 3 — RELATED CONTEXT */}
-        <section style={{ borderTop: '1px solid #e5e5e5', marginTop: '1rem', padding: '2rem 0', backgroundColor: '#fafafa' }}>
-          <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>Related Information</h3>
-          <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', gap: '2rem' }}>
-            <li>
-              <Link href="/products/castor-oil" style={{ color: '#0066cc', textDecoration: 'none' }}>
-                Castor Oil — Product Details
-              </Link>
-            </li>
-            <li>
-              <Link href="/products/castor-seed" style={{ color: '#0066cc', textDecoration: 'none' }}>
-                Castor Seed — Product Details
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" style={{ color: '#0066cc', textDecoration: 'none' }}>
+            </div>
+            <div>
+              <Link href="/contact" className="btn-primary-light">
                 Contact Us
               </Link>
-            </li>
-          </ul>
-        </section>
-    </div>
-  )
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }

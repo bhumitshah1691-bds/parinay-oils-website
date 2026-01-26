@@ -19,10 +19,19 @@ module.exports = {
         brand: {
           green: '#1a5a3c',        // Deep Industrial Green - primary buttons, accents
           'green-dark': '#0f3d28', // Dark Forest Green - headings, footer
+          'green-light': '#2d7a54', // Lighter green for hover states
+        },
+        // Section Background Colors - Alternating System
+        section: {
+          'brand-green': '#1a5a3c',      // Brand green sections
+          'light-neutral': '#f5f3ef',    // Warm light grey / light green
+          'white': '#ffffff',            // White breathing sections
+          'dark': '#0f3d28',             // Footer dark
         },
         neutral: {
-          'off-white': '#f8f7f4', // Warm off-white - main backgrounds
+          'off-white': '#f8f7f4',   // Warm off-white - main backgrounds
           'light-green': '#f5f7f5', // Very light green-tinted - section framing
+          'warm-grey': '#f5f3ef',   // Warm grey for sections
         },
       },
       fontFamily: {
@@ -35,6 +44,9 @@ module.exports = {
         'heading-3': ['1.25rem', { lineHeight: '1.3', letterSpacing: '-0.01em', fontWeight: '600' }],
         'body': ['1rem', { lineHeight: '1.7' }],
         'small': ['0.875rem', { lineHeight: '1.5' }],
+      },
+      maxWidth: {
+        'container': '1280px',
       },
     },
   },

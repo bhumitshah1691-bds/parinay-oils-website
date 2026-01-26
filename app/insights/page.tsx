@@ -1,170 +1,188 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function InsightsPage() {
   return (
-    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
-        {/* SECTION 1 — ORIENTATION */}
-        <section style={{ paddingTop: '2rem', paddingBottom: '2rem', marginBottom: '2rem', borderBottom: '1px solid #e5e5e5' }}>
-          {/* Breadcrumb Navigation */}
-          <nav style={{ marginBottom: '1rem', fontSize: '0.875rem', color: '#666' }}>
-            <Link href="/" style={{ color: '#666', textDecoration: 'none' }}>Home</Link>
-            <span style={{ margin: '0 0.5rem' }}>&gt;</span>
-            <span>Insights</span>
-          </nav>
+    <>
+      {/* SECTION 1 — PAGE HEADER */}
+      {/* Background: Brand Green */}
+      <section className="master-section bg-section-brand">
+        <div className="master-container">
+          <div className="master-grid">
+            {/* Visual Column */}
+            <div className="master-visual" style={{ minHeight: '400px' }}>
+              <Image
+                src="/company/about.jpg"
+                alt="Industry insights"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+            {/* Content Column */}
+            <div className="master-content">
+              {/* Breadcrumb */}
+              <nav style={{ marginBottom: '1.5rem', fontSize: '0.875rem', opacity: 0.8 }}>
+                <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>Home</Link>
+                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+                <span>Insights</span>
+              </nav>
 
-          {/* Page Title */}
-          <h1 style={{ margin: '0 0 1rem 0', fontSize: '2rem', fontWeight: '600' }}>
-            Insights
-          </h1>
-
-          {/* Brief scope / context description */}
-          <p style={{ margin: 0, color: '#555', maxWidth: '800px' }}>
-            Share informational content related to products, industry context, and regulatory awareness. Support buyer understanding without advisory positioning.
-          </p>
-        </section>
-
-        {/* SECTION 2 — INFORMATION ARCHITECTURE */}
-        <section style={{ display: 'flex', paddingTop: '1rem', paddingBottom: '3rem', gap: '4rem' }}>
-          {/* SIDEBAR (Left) */}
-          <aside style={{ width: '250px', flexShrink: 0 }}>
-            {/* Sub-navigation (section anchors) */}
-            <nav style={{ marginBottom: '2rem' }}>
-              <h3 style={{ margin: '0 0 1rem 0', fontSize: '1rem', fontWeight: '600' }}>
-                On This Page
-              </h3>
-              <ul style={{ listStyle: 'none', margin: 0, padding: 0 }}>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#content-categories" style={{ color: '#333', textDecoration: 'none' }}>
-                    Content Categories
-                  </a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#article-listing-format" style={{ color: '#333', textDecoration: 'none' }}>
-                    Article Listing Format
-                  </a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#content-disclaimer" style={{ color: '#333', textDecoration: 'none' }}>
-                    Content Disclaimer
-                  </a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#inquiry" style={{ color: '#333', textDecoration: 'none' }}>
-                    Inquiry
-                  </a>
-                </li>
-              </ul>
-            </nav>
-
-            {/* Quick Contact */}
-            <div>
-              <h3 style={{ margin: '0 0 1rem 0', fontSize: '1rem', fontWeight: '600' }}>
-                Contact
-              </h3>
-              <p style={{ margin: 0, fontSize: '0.875rem', color: '#555' }}>
-                <Link href="/contact" style={{ color: '#333' }}>
-                  Business Inquiries
-                </Link>
+              <h1 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>
+                Insights
+              </h1>
+              
+              <p style={{ fontSize: '1.125rem', lineHeight: '1.8' }}>
+                Informational content related to products, industry context, and regulatory awareness to support buyer understanding.
               </p>
             </div>
-          </aside>
+          </div>
+        </div>
+      </section>
 
-          {/* MAIN CONTENT (Right) */}
-          <div style={{ flex: 1, maxWidth: '800px' }}>
-            {/* SECTION 1 — CONTENT CATEGORIES */}
-            <section id="content-categories" style={{ marginBottom: '3rem' }}>
-              <h2 style={{ margin: '0 0 1rem 0', fontSize: '1.5rem', fontWeight: '600' }}>
+      {/* SECTION 2 — CONTENT CATEGORIES */}
+      {/* Background: Light Neutral */}
+      <section className="master-section bg-section-light">
+        <div className="master-container">
+          <div className="master-grid-reverse">
+            {/* Content Column */}
+            <div className="master-content">
+              <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
                 Content Categories
               </h2>
               
-              <p style={{ margin: '0 0 1rem 0', lineHeight: '1.7', color: '#333' }}>
-                Categories:
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444', marginBottom: '1.5rem' }}>
+                Our insights cover the following categories:
               </p>
-              <ul style={{ margin: '0 0 1.5rem 0', paddingLeft: '1.5rem', lineHeight: '1.7', color: '#333' }}>
+              
+              <ul style={{ 
+                color: '#444', 
+                paddingLeft: '1.5rem', 
+                fontSize: '1.0625rem', 
+                lineHeight: '2',
+                marginBottom: '1.5rem'
+              }}>
                 <li>Product information</li>
                 <li>Industry applications</li>
                 <li>Regulatory and compliance updates</li>
                 <li>Supply chain and trade context</li>
               </ul>
-
-              <p style={{ margin: 0, lineHeight: '1.7', color: '#333' }}>
+              
+              <p style={{ fontSize: '0.9375rem', color: '#666' }}>
                 Content is published for general informational purposes only.
               </p>
-            </section>
+            </div>
+            {/* Visual Column */}
+            <div className="master-visual">
+              <Image
+                src="/facility/processing.jpg"
+                alt="Industry knowledge"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* SECTION 2 — ARTICLE LISTING FORMAT */}
-            <section id="article-listing-format" style={{ marginBottom: '3rem' }}>
-              <h2 style={{ margin: '0 0 1rem 0', fontSize: '1.5rem', fontWeight: '600' }}>
-                Article Listing Format
+      {/* SECTION 3 — ARTICLE FORMAT */}
+      {/* Background: Brand Green */}
+      <section className="master-section bg-section-brand">
+        <div className="master-container">
+          <div className="master-grid">
+            {/* Visual Column */}
+            <div className="master-visual">
+              <Image
+                src="/facility/warehouse.jpg"
+                alt="Article resources"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+            {/* Content Column */}
+            <div className="master-content">
+              <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>
+                Article Format
               </h2>
               
-              <p style={{ margin: '0 0 1rem 0', lineHeight: '1.7', color: '#333' }}>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', marginBottom: '1.5rem' }}>
                 Each article entry includes:
               </p>
-              <ul style={{ margin: '0 0 1.5rem 0', paddingLeft: '1.5rem', lineHeight: '1.7', color: '#333' }}>
+              
+              <ul style={{ paddingLeft: '1.5rem', fontSize: '1.0625rem', lineHeight: '2', marginBottom: '1.5rem' }}>
                 <li>Article title</li>
                 <li>Category</li>
                 <li>Publication date</li>
                 <li>Brief summary (2–3 lines)</li>
                 <li>Reference links (where applicable)</li>
               </ul>
-
-              <p style={{ margin: 0, lineHeight: '1.7', color: '#333' }}>
+              
+              <p style={{ fontSize: '0.9375rem', opacity: 0.85 }}>
                 Articles are listed in reverse chronological order.
               </p>
-            </section>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* SECTION 3 — CONTENT DISCLAIMER */}
-            <section id="content-disclaimer" style={{ marginBottom: '3rem' }}>
-              <h2 style={{ margin: '0 0 1rem 0', fontSize: '1.5rem', fontWeight: '600' }}>
+      {/* SECTION 4 — DISCLAIMER */}
+      {/* Background: Light Neutral */}
+      <section className="master-section bg-section-light">
+        <div className="master-container">
+          <div className="master-grid-reverse">
+            {/* Content Column */}
+            <div className="master-content">
+              <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
                 Content Disclaimer
               </h2>
-              <p style={{ margin: '0 0 1rem 0', lineHeight: '1.7', color: '#333' }}>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444', marginBottom: '1.5rem' }}>
                 Content published under Insights is provided for general informational purposes only. It does not constitute technical advice, regulatory guidance, or professional recommendations.
               </p>
-              <p style={{ margin: 0, lineHeight: '1.7', color: '#333' }}>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444' }}>
                 Readers are responsible for verifying information relevance and applicability based on their specific requirements and jurisdiction.
               </p>
-            </section>
+            </div>
+            {/* Visual Column */}
+            <div className="master-visual">
+              <Image
+                src="/products/castor-oil.jpg"
+                alt="Product knowledge"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* SECTION 4 — INQUIRY */}
-            <section id="inquiry" style={{ marginBottom: '3rem' }}>
-              <h2 style={{ margin: '0 0 1rem 0', fontSize: '1.5rem', fontWeight: '600' }}>
-                Inquiry
+      {/* SECTION 5 — INQUIRY CTA */}
+      {/* Background: Brand Green */}
+      <section className="master-section bg-section-brand" style={{ padding: '4rem 0' }}>
+        <div className="master-container">
+          <div style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            justifyContent: 'space-between',
+            gap: '3rem'
+          }}>
+            <div style={{ flex: 1 }}>
+              <h2 style={{ fontSize: '1.75rem', marginBottom: '1rem' }}>
+                Questions About Our Content?
               </h2>
-              <p style={{ margin: '0 0 1rem 0', lineHeight: '1.7', color: '#333' }}>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.7', opacity: 0.95 }}>
                 For questions related to published content or requests for additional information, please contact Parinay Oils through the official inquiry channel.
               </p>
-              <p style={{ margin: 0, lineHeight: '1.7', color: '#333' }}>
-                Responses are provided based on relevance and information availability.
-              </p>
-            </section>
-          </div>
-        </section>
-
-        {/* SECTION 3 — RELATED CONTEXT */}
-        <section style={{ padding: '2rem 0', marginTop: '1rem', borderTop: '1px solid #e5e5e5', backgroundColor: '#fafafa' }}>
-          <h2 style={{ margin: '0 0 1rem 0', fontSize: '1.25rem', fontWeight: '600' }}>
-            Related Information
-          </h2>
-          <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', gap: '2rem' }}>
-            <li>
-              <Link href="/products" style={{ color: '#333' }}>
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link href="/applications" style={{ color: '#333' }}>
-                Applications & Industries
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" style={{ color: '#333' }}>
+            </div>
+            <div style={{ display: 'flex', gap: '1rem' }}>
+              <Link href="/contact" className="btn-primary-light">
                 Contact Us
               </Link>
-            </li>
-          </ul>
-        </section>
-    </div>
-  )
+              <Link href="/products" className="btn-primary-light" style={{ backgroundColor: 'transparent', border: '2px solid #ffffff' }}>
+                View Products
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }

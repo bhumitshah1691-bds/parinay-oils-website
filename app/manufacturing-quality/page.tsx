@@ -1,77 +1,103 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ManufacturingQualityPage() {
   return (
-    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
-        {/* SECTION 1 — ORIENTATION */}
-        <section style={{ paddingTop: '2rem', paddingBottom: '2rem', marginBottom: '2rem', borderBottom: '1px solid #e5e5e5' }}>
-          {/* Breadcrumb Navigation */}
-          <nav style={{ marginBottom: '1rem', fontSize: '0.875rem', color: '#666' }}>
-            <Link href="/" style={{ color: '#666', textDecoration: 'none' }}>Home</Link>
-            {' > '}
-            <span>Manufacturing & Quality</span>
-          </nav>
+    <>
+      {/* SECTION 1 — PAGE HEADER */}
+      {/* Background: Brand Green */}
+      <section className="master-section bg-section-brand">
+        <div className="master-container">
+          <div className="master-grid">
+            {/* Visual Column */}
+            <div className="master-visual" style={{ minHeight: '450px' }}>
+              <Image
+                src="/facility/processing.jpg"
+                alt="Manufacturing facility"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+            {/* Content Column */}
+            <div className="master-content">
+              {/* Breadcrumb */}
+              <nav style={{ marginBottom: '1.5rem', fontSize: '0.875rem', opacity: 0.8 }}>
+                <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>Home</Link>
+                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+                <span>Manufacturing & Quality</span>
+              </nav>
 
-          {/* Page Title */}
-          <h1 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Manufacturing & Quality</h1>
+              <h1 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>
+                Manufacturing & Quality
+              </h1>
+              
+              <p style={{ fontSize: '1.125rem', lineHeight: '1.8', marginBottom: '1.5rem' }}>
+                Manufacturing capabilities and quality controls for Castor Oil supplied by Parinay Oils.
+              </p>
+              
+              <p style={{ fontSize: '1rem', lineHeight: '1.7', opacity: 0.9 }}>
+                This page applies only to Castor Oil. No processing or manufacturing claims apply to Castor Seed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          {/* Scope / Context Description */}
-          <p style={{ color: '#555', maxWidth: '800px' }}>
-            Manufacturing capabilities and quality controls for Castor Oil supplied by Parinay Oils. 
-            This page applies only to Castor Oil. No processing or manufacturing claims apply to Castor Seed.
-          </p>
-        </section>
-
-        {/* SECTION 2 — INFORMATION ARCHITECTURE */}
-        <section style={{ display: 'flex', gap: '4rem', paddingTop: '1rem', paddingBottom: '3rem' }}>
-          {/* SIDEBAR */}
-          <aside style={{ width: '250px', flexShrink: 0 }}>
-            {/* Sub-navigation */}
-            <nav style={{ marginBottom: '2rem' }}>
-              <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem', borderBottom: '1px solid #e5e5e5', paddingBottom: '0.5rem' }}>
-                On This Page
-              </h3>
-              <ul style={{ listStyle: 'none', margin: 0, padding: 0 }}>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#manufacturing-overview" style={{ color: '#333', textDecoration: 'none' }}>Manufacturing Overview</a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#process-flow" style={{ color: '#333', textDecoration: 'none' }}>Process Flow</a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#quality-control" style={{ color: '#333', textDecoration: 'none' }}>Quality Control & Assurance</a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#certifications" style={{ color: '#333', textDecoration: 'none' }}>Certifications & Compliance</a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#sourcing-reference" style={{ color: '#333', textDecoration: 'none' }}>Sourcing & Quality Discipline</a>
-                </li>
-                <li style={{ marginBottom: '0.5rem' }}>
-                  <a href="#inquiry" style={{ color: '#333', textDecoration: 'none' }}>Inquiry</a>
-                </li>
-              </ul>
-            </nav>
-          </aside>
-
-          {/* MAIN CONTENT */}
-          <div style={{ flex: 1, maxWidth: '800px' }}>
-            {/* Content Block A: Manufacturing Overview */}
-            <article id="manufacturing-overview" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Manufacturing Overview</h2>
-              <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>
+      {/* SECTION 2 — MANUFACTURING OVERVIEW */}
+      {/* Background: Light Neutral */}
+      <section className="master-section bg-section-light">
+        <div className="master-container">
+          <div className="master-grid-reverse">
+            {/* Content Column */}
+            <div className="master-content">
+              <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
+                Manufacturing Overview
+              </h2>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444', marginBottom: '1.5rem' }}>
                 Parinay Oils manufactures Castor Oil through a controlled process designed to support consistent output and suitability for industrial and commercial use. Manufacturing activities are focused on maintaining process discipline, material traceability, and adherence to defined quality parameters.
               </p>
-              <p style={{ lineHeight: 1.7 }}>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444' }}>
                 Raw material sourcing, processing, and finished product handling are managed to align with internal quality procedures and applicable regulatory expectations.
               </p>
-            </article>
+            </div>
+            {/* Visual Column */}
+            <div className="master-visual">
+              <Image
+                src="/facility/warehouse.jpg"
+                alt="Raw material handling"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Content Block B: Process Flow */}
-            <article id="process-flow" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Manufacturing Process Flow</h2>
-              <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>Process Stages:</p>
-              <ul style={{ lineHeight: 1.7, marginLeft: '1.5rem', marginBottom: '1rem' }}>
+      {/* SECTION 3 — PROCESS FLOW */}
+      {/* Background: Brand Green */}
+      <section className="master-section bg-section-brand">
+        <div className="master-container">
+          <div className="master-grid">
+            {/* Visual Column */}
+            <div className="master-visual">
+              <Image
+                src="/company/about.jpg"
+                alt="Manufacturing process"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+            {/* Content Column */}
+            <div className="master-content">
+              <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>
+                Manufacturing Process Flow
+              </h2>
+              
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', marginBottom: '1.5rem' }}>
+                Process Stages:
+              </p>
+              
+              <ul style={{ paddingLeft: '1.5rem', fontSize: '1.0625rem', lineHeight: '2', marginBottom: '1.5rem' }}>
                 <li>Raw material receipt and inspection</li>
                 <li>Cleaning and preparation</li>
                 <li>Oil extraction and processing</li>
@@ -79,88 +105,115 @@ export default function ManufacturingQualityPage() {
                 <li>Quality checks during processing</li>
                 <li>Finished product storage and dispatch</li>
               </ul>
-              <p style={{ lineHeight: 1.7 }}>
+              
+              <p style={{ fontSize: '0.9375rem', opacity: 0.85 }}>
                 Detailed process parameters are maintained internally and are available on request where appropriate.
               </p>
-            </article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Content Block C: Quality Control & Assurance */}
-            <article id="quality-control" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Quality Control & Assurance</h2>
-              <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>
+      {/* SECTION 4 — QUALITY CONTROL */}
+      {/* Background: Light Neutral */}
+      <section className="master-section bg-section-light">
+        <div className="master-container">
+          <div className="master-grid-reverse">
+            {/* Content Column */}
+            <div className="master-content">
+              <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
+                Quality Control & Assurance
+              </h2>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444', marginBottom: '1.5rem' }}>
                 Quality control is integrated across key stages of the manufacturing process to ensure consistency and conformity with defined specifications. Checks are conducted on raw materials, in-process batches, and finished products prior to dispatch.
               </p>
-              <p style={{ lineHeight: 1.7 }}>
-                Testing parameters, acceptance criteria, and documentation practices are defined internally and aligned with customer and regulatory requirements. Product-specific test reports are provided where applicable.
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444', marginBottom: '1.5rem' }}>
+                Testing parameters, acceptance criteria, and documentation practices are defined internally and aligned with customer and regulatory requirements.
               </p>
-            </article>
+              
+              <div className="info-card-light">
+                <h3 style={{ fontSize: '1rem', color: '#0f3d28', marginBottom: '0.75rem' }}>
+                  Certifications & Compliance
+                </h3>
+                <ul style={{ color: '#444', paddingLeft: '1.25rem', margin: 0, marginBottom: '1rem', lineHeight: '1.8' }}>
+                  <li>Certifications: Available on request</li>
+                  <li>Manufacturing per applicable local and export regulations</li>
+                  <li>Compliance information shared based on destination requirements</li>
+                </ul>
+              </div>
+            </div>
+            {/* Visual Column */}
+            <div className="master-visual">
+              <Image
+                src="/facility/processing.jpg"
+                alt="Quality control"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Content Block D: Certifications & Compliance */}
-            <article id="certifications" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Certifications & Compliance</h2>
-              <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>
-                <strong>Certifications:</strong>
-              </p>
-              <ul style={{ lineHeight: 1.7, marginLeft: '1.5rem', marginBottom: '1rem' }}>
-                <li>Available on request</li>
-              </ul>
-              <p style={{ lineHeight: 1.7, marginBottom: '0.5rem' }}>
-                <strong>Regulatory Compliance:</strong>
-              </p>
-              <ul style={{ lineHeight: 1.7, marginLeft: '1.5rem', marginBottom: '1rem' }}>
-                <li>Manufacturing and supply activities are conducted in accordance with applicable local and export regulations</li>
-                <li>Product-specific compliance information is shared based on destination country requirements</li>
-              </ul>
-              <p style={{ lineHeight: 1.7 }}>
-                Certification scope and validity are confirmed at the time of inquiry.
-              </p>
-            </article>
-
-            {/* Content Block E: Sourcing & Quality Discipline (Reference) */}
-            <article id="sourcing-reference" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Sourcing & Quality Discipline (Reference)</h2>
-              <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>
+      {/* SECTION 5 — SOURCING REFERENCE */}
+      {/* Background: White */}
+      <section className="master-section bg-section-white">
+        <div className="master-container">
+          <div className="master-grid">
+            {/* Visual Column */}
+            <div className="master-visual">
+              <Image
+                src="/products/castor-seed.jpg"
+                alt="Castor seed sourcing"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
+            {/* Content Column */}
+            <div className="master-content">
+              <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
+                Sourcing & Quality Discipline
+              </h2>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444', marginBottom: '1.5rem' }}>
                 Castor Seed supplied by Parinay Oils is sourced through external suppliers and is not processed or manufactured in-house. Sourcing is managed through defined quality and grading criteria agreed at the time of procurement.
               </p>
-              <p style={{ lineHeight: 1.7 }}>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.8', color: '#444' }}>
                 Quality checks for traded materials are limited to inspection and documentation as applicable. Manufacturing controls described on this page do not apply to traded products.
               </p>
-            </article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Content Block F: Inquiry */}
-            <article id="inquiry" style={{ marginBottom: '2.5rem' }}>
-              <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Inquiry</h2>
-              <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>
+      {/* SECTION 6 — INQUIRY CTA */}
+      {/* Background: Brand Green */}
+      <section className="master-section bg-section-brand" style={{ padding: '4rem 0' }}>
+        <div className="master-container">
+          <div style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            justifyContent: 'space-between',
+            gap: '3rem'
+          }}>
+            <div style={{ flex: 1 }}>
+              <h2 style={{ fontSize: '1.75rem', marginBottom: '1rem' }}>
+                Need More Information?
+              </h2>
+              <p style={{ fontSize: '1.0625rem', lineHeight: '1.7', opacity: 0.95 }}>
                 For manufacturing capabilities, quality controls, or compliance-related information, please contact Parinay Oils through the official inquiry channel.
               </p>
-              <p style={{ lineHeight: 1.7 }}>
-                Specific documentation and clarifications are shared based on product scope and destination requirements.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        {/* SECTION 3 — RELATED CONTEXT */}
-        <section style={{ borderTop: '1px solid #e5e5e5', marginTop: '1rem', padding: '2rem 0', backgroundColor: '#fafafa' }}>
-          <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>Related Information</h3>
-          <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', gap: '2rem' }}>
-            <li>
-              <Link href="/products/castor-oil" style={{ color: '#0066cc', textDecoration: 'none' }}>
-                Castor Oil — Product Details
-              </Link>
-            </li>
-            <li>
-              <Link href="/applications" style={{ color: '#0066cc', textDecoration: 'none' }}>
-                Applications & Industries
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" style={{ color: '#0066cc', textDecoration: 'none' }}>
+            </div>
+            <div style={{ display: 'flex', gap: '1rem' }}>
+              <Link href="/contact" className="btn-primary-light">
                 Contact Us
               </Link>
-            </li>
-          </ul>
-        </section>
-    </div>
-  )
+              <Link href="/products/castor-oil" className="btn-primary-light" style={{ backgroundColor: 'transparent', border: '2px solid #ffffff' }}>
+                View Product
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }

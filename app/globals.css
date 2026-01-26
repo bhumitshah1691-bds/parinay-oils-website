@@ -93,6 +93,27 @@
     text-underline-offset: 2px;
   }
 
+  /* Button and link hover transitions */
+  .hover\:bg-brand-green-dark:hover {
+    background-color: #0f3d28;
+  }
+
+  .hover\:bg-brand-green:hover {
+    background-color: #1a5a3c;
+  }
+
+  .hover\:text-brand-green:hover {
+    color: #1a5a3c;
+  }
+
+  .hover\:text-brand-green-dark:hover {
+    color: #0f3d28;
+  }
+
+  .hover\:text-white:hover {
+    color: #ffffff;
+  }
+
   /* Strong/emphasis */
   strong, b {
     font-weight: 600;

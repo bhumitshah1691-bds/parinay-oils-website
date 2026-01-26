@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header style={{ 
-      padding: '1rem 0', 
+      padding: '0.75rem 0', 
       backgroundColor: '#ffffff',
       borderBottom: '1px solid #e8e8e8',
       position: 'sticky',
@@ -19,20 +19,25 @@ export default function Header() {
         padding: '0 3rem',
       }}>
         {/* Logo Block */}
-        <div style={{ flexShrink: 0 }}>
-          <Link 
-            href="/" 
-            style={{ 
-              textDecoration: 'none', 
-              color: '#0f3d28',
-              fontSize: '1.25rem',
-              fontWeight: 600,
-              letterSpacing: '-0.01em',
+        <Link 
+          href="/" 
+          style={{ 
+            display: 'flex',
+            alignItems: 'center',
+            textDecoration: 'none',
+            flexShrink: 0,
+          }}
+        >
+          <img
+            src="/logos/logo-primary-white.png"
+            alt="Parinay Oils"
+            style={{
+              height: '76px',
+              width: 'auto',
+              display: 'block',
             }}
-          >
-            Parinay Oils
-          </Link>
-        </div>
+          />
+        </Link>
 
         {/* Primary Navigation */}
         <nav>

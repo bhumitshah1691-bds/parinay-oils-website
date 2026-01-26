@@ -14,6 +14,17 @@ module.exports = {
       'sm': { max: '639px' },
     },
     extend: {
+      colors: {
+        // Brand Color System (Phase 12)
+        brand: {
+          green: '#1a5a3c',        // Deep Industrial Green - primary buttons, accents
+          'green-dark': '#0f3d28', // Dark Forest Green - headings, footer
+        },
+        neutral: {
+          'off-white': '#f8f7f4', // Warm off-white - main backgrounds
+          'light-green': '#f5f7f5', // Very light green-tinted - section framing
+        },
+      },
       fontFamily: {
         sans: ['var(--font-inter)', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
       },

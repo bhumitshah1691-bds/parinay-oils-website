@@ -1,11 +1,18 @@
+import HeroSection from '@/components/HeroSection';
+
 export default function Home() {
   return (
-    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
+    <>
+      {/* Home Hero Section */}
+      <HeroSection />
+
+      {/* Page Content */}
+      <div className="content-wrapper">
         {/* SECTION 1 — COMPANY IDENTIFICATION */}
-        <section style={{ paddingTop: '2rem', paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
-          <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>
+        <section style={{ paddingTop: '4rem', paddingBottom: '2.5rem', marginBottom: '2.5rem', borderBottom: '1px solid #e5e5e5' }}>
+          <h2 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1.5rem' }}>
             Company Identification
-          </h1>
+          </h2>
           <p style={{ marginBottom: '1rem', lineHeight: '1.7' }}>
             Parinay Oils is an India-based manufacturing and trading company engaged in the supply of Castor Oil and Castor Seed. The company operates with a focus on process discipline, supply reliability, and alignment with buyer-specific requirements.
           </p>
@@ -105,6 +112,7 @@ export default function Home() {
             Detailed responses are provided based on inquiry scope and relevance.
           </p>
         </section>
-    </div>
+      </div>
+    </>
   )
 }

@@ -145,13 +145,33 @@ export default function Home() {
         <div className="master-container">
           <div className="master-grid">
             {/* Visual Column - Founder Image */}
-            <div className="master-visual" style={{ minHeight: '450px' }}>
-              <Image
-                src="/company/founder.jpg"
-                alt="Founder of Parinay Oils"
-                fill
-                style={{ objectFit: 'cover' }}
-              />
+            <div style={{ 
+              display: 'flex', 
+              justifyContent: 'center', 
+              alignItems: 'center',
+              width: '100%',
+              minHeight: '450px'
+            }}>
+              <div style={{ 
+                position: 'relative',
+                width: '320px',
+                maxWidth: '100%',
+                aspectRatio: '4 / 5',
+                borderRadius: '8px',
+                overflow: 'hidden',
+                backgroundColor: '#ffffff',
+                boxShadow: '0 8px 30px rgba(0, 0, 0, 0.12)'
+              }}>
+                <Image
+                  src="/company/founder.png"
+                  alt="Founder of Parinay Oils"
+                  fill
+                  style={{ 
+                    objectFit: 'cover',
+                    objectPosition: 'center 22%'
+                  }}
+                />
+              </div>
             </div>
             {/* Content Column */}
             <div className="master-content">

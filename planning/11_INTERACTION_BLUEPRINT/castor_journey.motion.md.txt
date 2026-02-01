@@ -1,0 +1,24 @@
+Section Type: Scroll-driven visual narrative
+
+Structure:
+- Vertical section
+- One stage visible at a time
+- Progress indicator aligned to scroll
+
+Stage Behavior:
+- Stage enters on scroll (fade + translate)
+- Frame transition within stage (cross-fade)
+- Previous stage dims, next stage activates
+
+User Feedback:
+- Scroll = visible change
+- No auto-play
+- No looping
+
+Visual Priority:
+- Image > text
+- Text remains minimal and static per stage
+
+Performance Notes:
+- Lazy load images
+- No video inside stages

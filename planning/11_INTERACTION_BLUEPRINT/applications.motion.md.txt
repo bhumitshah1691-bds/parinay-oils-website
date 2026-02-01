@@ -1,0 +1,31 @@
+Section Type: Grid-based, hover-dominant interaction
+
+Default State:
+- All application cards visible
+- Clean, neutral appearance
+- No motion until user interacts
+
+Hover Behavior:
+- Card lifts slightly on hover
+- Background darkens or accent border appears
+- Icon or image subtly scales
+- Text clarity increases
+
+Scroll Behavior:
+- Cards enter with staggered fade + upward motion
+- No scroll hijacking
+- Motion completes before hover starts
+
+User Feedback:
+- Cursor movement causes immediate reaction
+- Clear sense of interactivity
+- No delayed or hidden effects
+
+Text Priority:
+- Title visible at all times
+- Description readable without hover
+- Hover enhances, does not reveal hidden content
+
+Performance Notes:
+- CSS + lightweight motion preferred
+- Avoid heavy JS for hover effects

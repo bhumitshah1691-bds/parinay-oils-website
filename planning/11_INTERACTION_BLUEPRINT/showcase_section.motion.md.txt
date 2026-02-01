@@ -1,0 +1,29 @@
+Section Type: Cinematic, scroll-activated showcase
+
+Visual Tone:
+- Dark background
+- High contrast imagery
+- Minimal text, maximum visual dominance
+
+Motion Behavior:
+- Section enters with slow fade-in
+- Images transition via cross-fade + slight scale
+- Subtle parallax on scroll (foreground moves slower than background)
+
+Scroll Control:
+- No rapid transitions
+- One visual state per scroll segment
+- No looping, no autoplay
+
+User Feedback:
+- Scroll creates visible cinematic change
+- Motion feels heavy and intentional
+
+Text Behavior:
+- Single statement revealed once
+- No animated paragraphs
+- Text remains secondary to visuals
+
+Performance Notes:
+- Images optimized and lazy-loaded
+- No video unless required

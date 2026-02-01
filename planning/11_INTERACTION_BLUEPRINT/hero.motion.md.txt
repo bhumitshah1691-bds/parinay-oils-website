@@ -1,0 +1,28 @@
+Section Type: Scroll + sequence-driven hero
+
+Initial State (Page Load):
+- Sequence_01 frames play on load
+- Headline text reveals word-by-word
+- Background motion visible immediately
+
+Scroll Behavior:
+- Scroll triggers transition from sequence_01 → sequence_02
+- Smooth frame interpolation, no jump cuts
+- Sequence_03 activates near hero exit
+
+Interaction:
+- Cursor movement causes subtle parallax
+- CTA button responds with magnetic hover
+
+Fallback Logic:
+- If sequences fail to load, hero_bg.mp4 is shown
+- Reduced-motion preference disables frame transitions
+
+User Perception Goal:
+- Immediate motion within first 2 seconds
+- Clear feeling that “something is happening”
+- No user confusion or overload
+
+Performance Notes:
+- Preload first frame of each sequence
+- Defer heavy motion until after first paint

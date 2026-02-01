@@ -1,0 +1,27 @@
+Section Type: Geographic emphasis with subtle motion
+
+Visual Core:
+- India map with Gujarat highlighted
+- Gujarat remains focal point throughout section
+
+Motion Behavior:
+- Section fades in on scroll
+- Gujarat highlight pulses gently once on entry
+- Subtle outward indicators suggest sourcing reach
+
+Interaction:
+- Hover on Gujarat shows brief tooltip or label
+- No drag, no zoom, no complex map controls
+
+Text Behavior:
+- Text fades in sequentially
+- No animated paragraphs
+- Motion never competes with map
+
+User Perception Goal:
+- Immediate recognition of geographic advantage
+- Calm authority, not spectacle
+
+Performance Notes:
+- SVG preferred over heavy images
+- No continuous animation loops

@@ -1,0 +1,29 @@
+Stage 01 — Flower
+
+Castor cultivation begins with controlled flowering in suitable agro-climatic conditions. Crop quality is influenced at this earliest stage through seed selection and field practices.
+
+Stage 02 — Seeds
+
+Mature flowers develop into castor seed pods. Seed characteristics determine oil yield and downstream suitability for industrial processing.
+
+Stage 03 — Harvesting
+
+Castor seeds are harvested at optimal maturity to preserve oil integrity. Post-harvest handling minimizes contamination and moisture variation.
+
+Stage 04 — Processing
+
+Seeds undergo mechanical and controlled extraction processes. Filtration and refining are applied based on end-use requirements and specifications.
+
+Stage 05 — Oil
+
+Refined castor oil is prepared for industrial, pharmaceutical, cosmetic, and specialty applications, meeting defined quality and consistency parameters.
+
+Locks
+
+One paragraph per stage
+
+Functional, non-marketing language
+
+No adjectives unless technical
+
+Reads clean even without animation

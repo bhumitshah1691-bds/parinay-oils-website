@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import Image from 'next/image';
 import gsap from 'gsap';
 
 interface LoaderProps {
@@ -10,13 +9,13 @@ interface LoaderProps {
 
 export default function Loader({ onComplete }: LoaderProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const imageRef = useRef<HTMLDivElement>(null);
+  const imageRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
     const container = containerRef.current;
-    const imageWrapper = imageRef.current;
+    const image = imageRef.current;
 
-    if (!container || !imageWrapper) return;
+    if (!container || !image) return;
 
     const tl = gsap.timeline({
       onComplete: () => {
@@ -24,22 +23,11 @@ export default function Loader({ onComplete }: LoaderProps) {
       },
     });
 
-    // Set initial state
-    gsap.set(imageWrapper, {
-      scale: 0.8,
-      opacity: 0,
-    });
-
-    gsap.set(container, {
-      opacity: 1,
-    });
-
     // Animation sequence
     tl
-      // Fade in and scale up the image with organic easing
-      .to(imageWrapper, {
+      // Scale up the image
+      .to(image, {
         scale: 1.1,
-        opacity: 1,
         duration: 2,
         ease: 'power2.out',
       })
@@ -62,38 +50,27 @@ export default function Loader({ onComplete }: LoaderProps) {
         position: 'fixed',
         top: 0,
         left: 0,
+        right: 0,
+        bottom: 0,
         width: '100vw',
         height: '100vh',
         zIndex: 9999,
-        overflow: 'hidden',
-        backgroundColor: '#000',
+        backgroundColor: '#111',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
       }}
     >
-      <div
+      <img
         ref={imageRef}
+        src="/raw_assets/loader/frame_01.jpg"
+        alt="Loading"
         style={{
-          position: 'relative',
-          width: '100%',
-          height: '100%',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
+          maxWidth: '60vw',
+          maxHeight: '80vh',
+          objectFit: 'contain',
         }}
-      >
-        <Image
-          src="/raw_assets/loader/frame_01.jpg"
-          alt=""
-          fill
-          priority
-          style={{
-            objectFit: 'cover',
-            objectPosition: 'center',
-          }}
-        />
-      </div>
+      />
     </div>
   );
 }

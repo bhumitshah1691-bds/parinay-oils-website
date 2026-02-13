@@ -144,7 +144,7 @@ export default function Home() {
       <section className="master-section bg-section-light">
         <div className="master-container">
           <div className="master-grid">
-            {/* Visual Column - Founder Image */}
+            {/* Visual Column - Founder Image (replace public/company/founder.png with your photo) */}
             <div style={{ 
               display: 'flex', 
               flexDirection: 'column',
@@ -155,38 +155,43 @@ export default function Home() {
             }}>
               <div style={{ 
                 position: 'relative',
-                width: '320px',
-                maxWidth: '100%',
-                aspectRatio: '4 / 5',
-                borderRadius: '8px',
+                width: 'min(320px, 100%)',
+                aspectRatio: '3 / 4',
+                borderRadius: '12px',
                 overflow: 'hidden',
-                backgroundColor: '#ffffff',
-                boxShadow: '0 8px 30px rgba(0, 0, 0, 0.12)'
+                backgroundColor: '#f5f5f0',
+                boxShadow: '0 12px 40px rgba(15, 61, 40, 0.12), 0 0 0 1px rgba(15, 61, 40, 0.06)',
+                margin: '0 auto'
               }}>
                 <Image
                   src="/company/founder.png"
-                  alt="Founder of Parinay Oils"
+                  alt="Paridhi Singh Solanki, Founder and MD of Parinay Oils"
                   fill
+                  sizes="(max-width: 768px) 100vw, 320px"
                   style={{ 
                     objectFit: 'cover',
-                    objectPosition: 'center 22%'
+                    objectPosition: 'center center'
                   }}
+                  priority={false}
                 />
               </div>
               <div style={{ 
-                marginTop: '0.75rem',
-                textAlign: 'center'
+                marginTop: '1rem',
+                textAlign: 'center',
+                paddingLeft: '0.5rem',
+                paddingRight: '0.5rem'
               }}>
                 <p style={{ 
-                  fontSize: '0.875rem', 
-                  color: '#444', 
+                  fontSize: '0.9375rem', 
+                  fontWeight: 600,
+                  color: '#0f3d28', 
                   margin: 0
                 }}>
                   Paridhi Singh Solanki
                 </p>
                 <p style={{ 
                   fontSize: '0.8125rem', 
-                  color: '#666', 
+                  color: '#555', 
                   margin: 0,
                   marginTop: '0.25rem'
                 }}>

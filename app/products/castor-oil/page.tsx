@@ -4,62 +4,38 @@ import Image from 'next/image';
 export default function CastorOilPage() {
   return (
     <>
-      {/* SECTION 1 — PRODUCT HEADER */}
-      {/* Background: Brand Green */}
+      {/* SECTION 1 — HERO BANNER */}
+      <section className="relative flex items-center justify-center min-h-[40vh] sm:min-h-[45vh] overflow-hidden" style={{ paddingTop: '72px' }}>
+        <div className="absolute inset-0 z-0">
+          <Image src="/products/castor-oil.jpg" alt="Castor Oil" fill className="object-cover" priority />
+          <div className="absolute inset-0 bg-black/55" />
+        </div>
+        <div className="relative z-10 text-center px-4 sm:px-6 py-12 sm:py-16 max-w-[800px] mx-auto">
+          <nav className="mb-3 sm:mb-4 text-sm text-white/80">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span className="mx-2">&gt;</span>
+            <Link href="/products" className="hover:text-white">Products</Link>
+            <span className="mx-2">&gt;</span>
+            <span>Castor Oil</span>
+          </nav>
+          <span className="badge badge-light mb-3 inline-block">Manufactured</span>
+          <h1 className="text-white mb-3 sm:mb-4">Castor Oil</h1>
+          <p className="text-white/80 text-sm sm:text-base max-w-[480px] mx-auto">
+            Vegetable Oil for Industrial, Pharmaceutical and Technical applications.
+          </p>
+        </div>
+      </section>
+
+      {/* SECTION 1b — Product Classification */}
       <section className="master-section bg-section-brand">
         <div className="master-container">
-          <div className="master-grid">
-            {/* Visual Column - Product Image */}
-            <div className="master-visual" style={{ minHeight: '450px' }}>
-              <Image
-                src="/products/castor-oil.jpg"
-                alt="Castor Oil"
-                fill
-                style={{ objectFit: 'cover' }}
-                priority
-              />
-              <p className="image-caption-light">Representational product image</p>
-            </div>
-            {/* Content Column */}
-            <div className="master-content">
-              {/* Breadcrumb */}
-              <nav style={{ marginBottom: '1.5rem', fontSize: '0.875rem', opacity: 0.8 }}>
-                <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>Home</Link>
-                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
-                <Link href="/products" style={{ color: 'inherit', textDecoration: 'none' }}>Products</Link>
-                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
-                <span>Castor Oil</span>
-              </nav>
-
-              {/* Status Badge */}
-              <span className="badge badge-light" style={{ marginBottom: '1rem' }}>
-                Manufactured
-              </span>
-
-              <h1 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', marginTop: '0.75rem' }}>
-                Castor Oil
-              </h1>
-
-              {/* Product Classification Card */}
-              <div className="info-card">
-                <div style={{ display: 'grid', gap: '0.5rem' }}>
-                  <p style={{ margin: 0 }}>
-                    <strong>Product Category:</strong> Vegetable Oil (Industrial / Pharmaceutical / Technical use)
-                  </p>
-                  <p style={{ margin: 0 }}>
-                    <strong>HS Code:</strong> Available on request
-                  </p>
-                  <p style={{ margin: 0 }}>
-                    <strong>CAS Number:</strong> Available on request
-                  </p>
-                  <p style={{ margin: 0 }}>
-                    <strong>Manufacturing Location:</strong> Ahmedabad, Gujarat, India
-                  </p>
-                  <p style={{ margin: 0 }}>
-                    <strong>Intended Use:</strong> Industrial and commercial applications
-                  </p>
-                </div>
-              </div>
+          <div className="info-card max-w-2xl">
+            <div className="grid gap-2 sm:grid-cols-2">
+              <p style={{ margin: 0 }}><strong>Product Category:</strong> Vegetable Oil (Industrial / Pharmaceutical / Technical use)</p>
+              <p style={{ margin: 0 }}><strong>HS Code:</strong> Available on request</p>
+              <p style={{ margin: 0 }}><strong>CAS Number:</strong> Available on request</p>
+              <p style={{ margin: 0 }}><strong>Manufacturing Location:</strong> Ahmedabad, Gujarat, India</p>
+              <p style={{ margin: 0 }}><strong>Intended Use:</strong> Industrial and commercial applications</p>
             </div>
           </div>
         </div>
@@ -69,7 +45,7 @@ export default function CastorOilPage() {
       {/* Background: Light Neutral */}
       <section className="master-section bg-section-light">
         <div className="master-container">
-          <div className="master-grid-reverse">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* Content Column */}
             <div className="master-content">
               <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
@@ -81,7 +57,7 @@ export default function CastorOilPage() {
               <p style={{ fontSize: '1.125rem', lineHeight: '1.8', color: '#444', marginBottom: '2rem' }}>
                 The product is supplied for use in downstream manufacturing where stable physical properties and reliable supply are required. Final application suitability and regulatory approvals are the responsibility of the buyer.
               </p>
-              <Link href="/manufacturing-quality" className="btn-secondary">
+              <Link href="/manufacturing-quality" className="btn btn-outline">
                 Learn About Manufacturing Process
               </Link>
             </div>
@@ -102,7 +78,7 @@ export default function CastorOilPage() {
       {/* Background: Brand Green */}
       <section className="master-section bg-section-brand">
         <div className="master-container">
-          <div className="master-grid">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* Visual Column */}
             <div className="master-visual">
               <Image
@@ -158,7 +134,7 @@ export default function CastorOilPage() {
       {/* Background: Light Neutral */}
       <section className="master-section bg-section-light">
         <div className="master-container">
-          <div className="master-grid-reverse">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* Content Column */}
             <div className="master-content">
               <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>

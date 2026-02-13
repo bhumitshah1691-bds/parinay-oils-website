@@ -4,49 +4,49 @@ import Image from 'next/image';
 export default function AboutPage() {
   return (
     <>
-      {/* SECTION 1 — COMPANY OVERVIEW */}
-      {/* Background: Brand Green */}
-      <section className="master-section bg-section-brand">
+      {/* SECTION 1 — HERO BANNER */}
+      <section className="relative flex items-center justify-center min-h-[40vh] sm:min-h-[45vh] overflow-hidden" style={{ paddingTop: '72px' }}>
+        <div className="absolute inset-0 z-0">
+          <Image src="/company/about.jpg" alt="Parinay Oils operations" fill className="object-cover" />
+          <div className="absolute inset-0 bg-black/55" />
+        </div>
+        <div className="relative z-10 text-center px-4 sm:px-6 py-12 sm:py-16 max-w-[800px] mx-auto">
+          <nav className="mb-3 sm:mb-4 text-sm text-white/80">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span className="mx-2">&gt;</span>
+            <span>About Us</span>
+          </nav>
+          <h1 className="text-white mb-3 sm:mb-4">About Parinay Oils</h1>
+          <p className="text-white/80 text-sm sm:text-base max-w-[480px] mx-auto">
+            Parinay Oils is an India-based manufacturing and trading company engaged in the supply of Castor Oil and Castor Seed.
+          </p>
+        </div>
+      </section>
+
+      {/* SECTION 2 — COMPANY OVERVIEW */}
+      <section className="master-section bg-section-light">
         <div className="master-container">
-          <div className="master-grid">
-            {/* Visual Column */}
-            <div className="master-visual" style={{ minHeight: '450px' }}>
-              <Image
-                src="/company/about.jpg"
-                alt="Parinay Oils operations"
-                fill
-                style={{ objectFit: 'cover' }}
-              />
-            </div>
-            {/* Content Column */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             <div className="master-content">
-              <nav style={{ marginBottom: '1.5rem', fontSize: '0.875rem', opacity: 0.8 }}>
-                <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>Home</Link>
-                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
-                <span>About Us</span>
-              </nav>
-              
-              <h1 style={{ fontSize: '2.25rem', marginBottom: '1.5rem' }}>
-                About Parinay Oils
-              </h1>
-              
-              <p style={{ fontSize: '1.125rem', lineHeight: '1.8', marginBottom: '1.5rem' }}>
-                Parinay Oils is an India-based manufacturing and trading company engaged in the supply of Castor Oil and Castor Seed. The company operates with a focus on process discipline, supply reliability, and alignment with buyer-specific requirements.
+              <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#444', marginBottom: '1rem' }}>
+                The company operates with a focus on process discipline, supply reliability, and alignment with buyer-specific requirements.
               </p>
-              
-              <p style={{ fontSize: '1.125rem', lineHeight: '1.8' }}>
-                Manufacturing activities are limited to Castor Oil. Castor Seed is supplied through external sourcing and trading arrangements. The company's operations are structured to support domestic and export-oriented business engagements.
+              <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#444' }}>
+                Manufacturing activities are limited to Castor Oil. Castor Seed is supplied through external sourcing and trading arrangements. The company&apos;s operations are structured to support domestic and export-oriented business engagements.
               </p>
+            </div>
+            <div className="master-visual">
+              <Image src="/company/about.jpg" alt="Parinay Oils operations" fill style={{ objectFit: 'cover' }} />
             </div>
           </div>
         </div>
       </section>
 
-      {/* SECTION 2 — FOUNDER MESSAGE */}
+      {/* SECTION 3 — FOUNDER MESSAGE */}
       {/* Background: Light Neutral */}
       <section className="master-section bg-section-light">
         <div className="master-container">
-          <div className="master-grid-reverse">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* Content Column */}
             <div className="master-content">
               <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 </ul>
               </div>
             </div>
-            {/* Visual Column - Founder Image (replace public/company/founder.png with your photo) */}
+            {/* Visual Column - Leadership Photos */}
             <div style={{ 
               display: 'flex', 
               flexDirection: 'column',
@@ -82,49 +82,78 @@ export default function AboutPage() {
               width: '100%'
             }}>
               <div style={{ 
-                position: 'relative',
-                width: 'min(320px, 100%)',
-                aspectRatio: '3 / 4',
-                borderRadius: '12px',
-                overflow: 'hidden',
-                backgroundColor: '#f5f5f0',
-                boxShadow: '0 12px 40px rgba(15, 61, 40, 0.12), 0 0 0 1px rgba(15, 61, 40, 0.06)',
-                margin: '0 auto'
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: '2rem',
+                justifyContent: 'center',
+                alignItems: 'flex-start'
               }}>
-                <Image
-                  src="/company/founder.png"
-                  alt="Paridhi Singh Solanki, Founder and MD of Parinay Oils"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 320px"
-                  style={{ 
-                    objectFit: 'cover',
-                    objectPosition: 'center center'
-                  }}
-                  priority={false}
-                />
-              </div>
-              <div style={{ 
-                marginTop: '1rem',
-                textAlign: 'center',
-                paddingLeft: '0.5rem',
-                paddingRight: '0.5rem'
-              }}>
-                <p style={{ 
-                  fontSize: '0.9375rem', 
-                  fontWeight: 600,
-                  color: '#0f3d28', 
-                  margin: 0
+                {/* Paridhi Singh Solanki - Founder & MD */}
+                <div style={{ 
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  flex: '1 1 180px',
+                  minWidth: '140px',
+                  maxWidth: '220px'
                 }}>
-                  Paridhi Singh Solanki
-                </p>
-                <p style={{ 
-                  fontSize: '0.8125rem', 
-                  color: '#555', 
-                  margin: 0,
-                  marginTop: '0.25rem'
+                  <div style={{ 
+                    position: 'relative',
+                    width: '100%',
+                    aspectRatio: '3 / 4',
+                    borderRadius: '12px',
+                    overflow: 'hidden',
+                    backgroundColor: '#f5f5f0',
+                    boxShadow: '0 12px 40px rgba(15, 61, 40, 0.12), 0 0 0 1px rgba(15, 61, 40, 0.06)'
+                  }}>
+                    <Image
+                      src="/raw_assets/company/paridhi.jpg.jpeg"
+                      alt="Paridhi Singh Solanki, Founder & MD of Parinay Oils"
+                      fill
+                      sizes="(max-width: 768px) 45vw, 220px"
+                      style={{ objectFit: 'cover', objectPosition: 'center center' }}
+                    />
+                  </div>
+                  <p style={{ fontSize: '0.9375rem', fontWeight: 600, color: '#0f3d28', margin: '0.75rem 0 0', textAlign: 'center' }}>
+                    Paridhi Singh Solanki
+                  </p>
+                  <p style={{ fontSize: '0.75rem', color: '#555', margin: '0.25rem 0 0', textAlign: 'center' }}>
+                    Founder & MD
+                  </p>
+                </div>
+                {/* Vinay Dubey - Director */}
+                <div style={{ 
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  flex: '1 1 180px',
+                  minWidth: '140px',
+                  maxWidth: '220px'
                 }}>
-                  Founder and MD, Parinay Oils
-                </p>
+                  <div style={{ 
+                    position: 'relative',
+                    width: '100%',
+                    aspectRatio: '3 / 4',
+                    borderRadius: '12px',
+                    overflow: 'hidden',
+                    backgroundColor: '#f5f5f0',
+                    boxShadow: '0 12px 40px rgba(15, 61, 40, 0.12), 0 0 0 1px rgba(15, 61, 40, 0.06)'
+                  }}>
+                    <Image
+                      src="/raw_assets/company/vinay.jpg.jpeg"
+                      alt="Vinay Dubey, Director of Parinay Oils"
+                      fill
+                      sizes="(max-width: 768px) 45vw, 220px"
+                      style={{ objectFit: 'cover', objectPosition: 'center center' }}
+                    />
+                  </div>
+                  <p style={{ fontSize: '0.9375rem', fontWeight: 600, color: '#0f3d28', margin: '0.75rem 0 0', textAlign: 'center' }}>
+                    Vinay Dubey
+                  </p>
+                  <p style={{ fontSize: '0.75rem', color: '#555', margin: '0.25rem 0 0', textAlign: 'center' }}>
+                    Director
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -135,7 +164,7 @@ export default function AboutPage() {
       {/* Background: Brand Green */}
       <section className="master-section bg-section-brand">
         <div className="master-container">
-          <div className="master-grid">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* Visual Column */}
             <div className="master-visual">
               <Image
@@ -183,7 +212,7 @@ export default function AboutPage() {
       {/* Background: Light Neutral */}
       <section className="master-section bg-section-light">
         <div className="master-container">
-          <div className="master-grid-reverse">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* Content Column */}
             <div className="master-content">
               <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>

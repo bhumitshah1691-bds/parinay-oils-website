@@ -49,7 +49,7 @@ export default function HeroSection() {
 
   const transition = {
     duration: 0.7,
-    ease: 'easeOut',
+    ease: 'easeOut' as const,
   };
 
   return (

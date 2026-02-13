@@ -4,42 +4,22 @@ import Image from 'next/image';
 export default function ApplicationsPage() {
   return (
     <>
-      {/* SECTION 1 — PAGE HEADER */}
-      {/* Background: Brand Green */}
-      <section className="master-section bg-section-brand">
-        <div className="master-container">
-          <div className="master-grid">
-            {/* Visual Column */}
-            <div className="master-visual" style={{ minHeight: '400px' }}>
-              <Image
-                src="/company/about.jpg"
-                alt="Industrial applications"
-                fill
-                style={{ objectFit: 'cover' }}
-              />
-            </div>
-            {/* Content Column */}
-            <div className="master-content">
-              {/* Breadcrumb */}
-              <nav style={{ marginBottom: '1.5rem', fontSize: '0.875rem', opacity: 0.8 }}>
-                <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>Home</Link>
-                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
-                <span>Applications & Industries</span>
-              </nav>
-
-              <h1 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>
-                Applications & Industries
-              </h1>
-              
-              <p style={{ fontSize: '1.125rem', lineHeight: '1.8', marginBottom: '1.5rem' }}>
-                Industry-level application areas for Castor Oil and Castor Seed.
-              </p>
-              
-              <p style={{ fontSize: '1rem', lineHeight: '1.7', opacity: 0.9 }}>
-                Applications listed are indicative only. Final application validation is the responsibility of the buyer.
-              </p>
-            </div>
-          </div>
+      {/* SECTION 1 — HERO BANNER */}
+      <section className="relative flex items-center justify-center min-h-[40vh] sm:min-h-[45vh] overflow-hidden" style={{ paddingTop: '72px' }}>
+        <div className="absolute inset-0 z-0">
+          <Image src="/company/about.jpg" alt="Industrial applications" fill className="object-cover" />
+          <div className="absolute inset-0 bg-black/55" />
+        </div>
+        <div className="relative z-10 text-center px-4 sm:px-6 py-12 sm:py-16 max-w-[800px] mx-auto">
+          <nav className="mb-3 sm:mb-4 text-sm text-white/80">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span className="mx-2">&gt;</span>
+            <span>Applications & Industries</span>
+          </nav>
+          <h1 className="text-white mb-3 sm:mb-4">Applications & Industries</h1>
+          <p className="text-white/80 text-sm sm:text-base max-w-[480px] mx-auto">
+            Industry-level application areas for Castor Oil and Castor Seed. Applications listed are indicative only.
+          </p>
         </div>
       </section>
 
@@ -47,7 +27,7 @@ export default function ApplicationsPage() {
       {/* Background: Light Neutral */}
       <section className="master-section bg-section-light">
         <div className="master-container">
-          <div className="master-grid-reverse">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* Content Column */}
             <div className="master-content">
               <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
@@ -142,7 +122,7 @@ export default function ApplicationsPage() {
       {/* Background: Light Neutral */}
       <section className="master-section bg-section-light">
         <div className="master-container">
-          <div className="master-grid">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* Visual Column */}
             <div className="master-visual">
               <Image

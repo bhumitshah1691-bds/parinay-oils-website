@@ -18,7 +18,6 @@ export default function InquiryForm() {
 
     if (result.success) {
       setStatus({ type: 'success', message: result.message })
-      // Reset form on success
       const form = document.getElementById('inquiry-form') as HTMLFormElement
       form?.reset()
     } else {
@@ -28,95 +27,62 @@ export default function InquiryForm() {
     setIsSubmitting(false)
   }
 
+  const inputClass = 'w-full px-4 py-3 rounded-xl border border-[#E5E0D5] text-base focus:outline-none focus:border-[#2D6A2F] focus:ring-2 focus:ring-[#2D6A2F]/15 transition-colors min-h-[48px]'
+
   return (
-    <form id="inquiry-form" action={handleSubmit} style={{ maxWidth: '600px' }}>
-      {/* Name */}
-      <div style={{ marginBottom: '1rem' }}>
-        <label style={{ display: 'block', marginBottom: '0.25rem', fontWeight: '500', fontSize: '0.875rem' }}>
-          Name <span style={{ color: '#c00' }}>*</span>
+    <form id="inquiry-form" action={handleSubmit} className="flex flex-col gap-5">
+      <div className="flex flex-col gap-1.5">
+        <label className="text-sm font-medium text-[#1A1A1A]" htmlFor="inquiry-name">
+          Name <span className="text-red-600">*</span>
         </label>
         <input
+          id="inquiry-name"
           type="text"
           name="name"
           required
           placeholder="Your name"
-          style={{
-            width: '100%',
-            padding: '0.75rem',
-            border: '1px solid #ccc',
-            backgroundColor: '#fff',
-            fontSize: '1rem'
-          }}
+          className={inputClass}
         />
       </div>
 
-      {/* Email */}
-      <div style={{ marginBottom: '1rem' }}>
-        <label style={{ display: 'block', marginBottom: '0.25rem', fontWeight: '500', fontSize: '0.875rem' }}>
-          Email <span style={{ color: '#c00' }}>*</span>
+      <div className="flex flex-col gap-1.5">
+        <label className="text-sm font-medium text-[#1A1A1A]" htmlFor="inquiry-email">
+          Email <span className="text-red-600">*</span>
         </label>
         <input
+          id="inquiry-email"
           type="email"
           name="email"
           required
           placeholder="your@email.com"
-          style={{
-            width: '100%',
-            padding: '0.75rem',
-            border: '1px solid #ccc',
-            backgroundColor: '#fff',
-            fontSize: '1rem'
-          }}
+          className={inputClass}
         />
       </div>
 
-      {/* Message */}
-      <div style={{ marginBottom: '1.5rem' }}>
-        <label style={{ display: 'block', marginBottom: '0.25rem', fontWeight: '500', fontSize: '0.875rem' }}>
-          Message <span style={{ color: '#c00' }}>*</span>
+      <div className="flex flex-col gap-1.5">
+        <label className="text-sm font-medium text-[#1A1A1A]" htmlFor="inquiry-message">
+          Message <span className="text-red-600">*</span>
         </label>
         <textarea
+          id="inquiry-message"
           name="message"
           required
           placeholder="Your message..."
           rows={5}
-          style={{
-            width: '100%',
-            padding: '0.75rem',
-            border: '1px solid #ccc',
-            backgroundColor: '#fff',
-            fontSize: '1rem',
-            resize: 'vertical'
-          }}
+          className={`${inputClass} min-h-[120px] resize-y`}
         />
       </div>
 
-      {/* Status Message */}
       {status.type !== 'idle' && (
-        <div style={{
-          marginBottom: '1rem',
-          padding: '0.75rem',
-          backgroundColor: status.type === 'success' ? '#d4edda' : '#f8d7da',
-          color: status.type === 'success' ? '#155724' : '#721c24',
-          border: `1px solid ${status.type === 'success' ? '#c3e6cb' : '#f5c6cb'}`
-        }}>
+        <div className={`p-4 rounded-xl text-sm ${status.type === 'success' ? 'bg-green-50 text-green-800 border border-green-200' : 'bg-red-50 text-red-800 border border-red-200'}`}>
           {status.message}
         </div>
       )}
 
-      {/* Submit Button */}
       <button
         type="submit"
         disabled={isSubmitting}
-        style={{
-          padding: '0.75rem 2rem',
-          backgroundColor: '#333',
-          color: '#fff',
-          border: 'none',
-          fontSize: '1rem',
-          cursor: isSubmitting ? 'not-allowed' : 'pointer',
-          opacity: isSubmitting ? 0.6 : 1
-        }}
+        className="w-full sm:w-auto btn btn-primary mt-2 py-3.5 text-base justify-center min-h-[48px] disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {isSubmitting ? 'Submitting...' : 'Submit Inquiry'}
       </button>

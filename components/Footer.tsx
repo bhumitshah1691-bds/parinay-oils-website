@@ -1,281 +1,106 @@
-import Link from 'next/link';
+import Link from 'next/link'
+import Image from 'next/image'
+import { Phone, Mail, MapPin } from 'lucide-react'
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-section-dark" style={{ 
-      width: '100%',
-      padding: '4rem 0 2rem 0',
-      marginTop: 'auto',
-    }}>
-      <div style={{ 
-        maxWidth: '1280px',
-        margin: '0 auto',
-        padding: '0 3rem',
-      }}>
-        {/* Main Footer Content - 4 Columns */}
-        <div style={{ 
-          display: 'grid', 
-          gridTemplateColumns: '1.5fr 1fr 1fr 1.25fr',
-          gap: '3rem',
-          marginBottom: '3rem',
-        }}>
-          {/* Column 1 - Company Information */}
-          <div>
-            <h4 style={{ 
-              color: '#ffffff',
-              margin: '0 0 1.25rem 0',
-              fontSize: '1.125rem',
-              fontWeight: 600,
-            }}>
-              Parinay Oils
-            </h4>
-            <p style={{ 
-              color: 'rgba(255, 255, 255, 0.8)',
-              fontSize: '0.9375rem',
-              lineHeight: 1.7,
-              marginBottom: '1.25rem',
-            }}>
+    <footer style={{background: '#111810', color: 'rgba(255,255,255,0.6)'}}>
+      <div className="w-full max-w-[1200px] mx-auto px-4 sm:px-6 py-12 sm:py-16">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
+
+          <div className="sm:col-span-2 lg:col-span-1">
+            <Image
+              src="/raw_assets/logos/logo-primary.png"
+              alt="Parinay Oils"
+              width={120}
+              height={40}
+              className="mb-4 opacity-90 h-9 w-auto"
+              style={{ filter: 'brightness(0) invert(1)' }}
+            />
+            <p className="text-sm leading-relaxed mb-2 text-white/50 max-w-[280px]">
               Manufacturers and Suppliers of Castor Oil and Castor Seed
             </p>
-            <div style={{ 
-              color: 'rgba(255, 255, 255, 0.7)',
-              fontSize: '0.875rem',
-              lineHeight: 1.8,
-            }}>
-              <p style={{ margin: '0 0 0.5rem 0', fontWeight: '500', color: 'rgba(255, 255, 255, 0.9)' }}>
-                Parinay Go India LLP
-              </p>
-              <p style={{ margin: 0 }}>
-                114, 1st/F, Shri Ghantakarna Mall,<br />
-                Near Ghantakarna Market, Sarangpur,<br />
-                Ahmedabad, Gujarat – 380001, India
-              </p>
-            </div>
+            <p className="text-xs text-white/30">Parinay Go India LLP</p>
           </div>
 
-          {/* Column 2 - Products */}
           <div>
-            <h4 style={{ 
-              color: '#ffffff',
-              margin: '0 0 1.25rem 0',
-              fontSize: '1rem',
-              fontWeight: 600,
-            }}>
-              Products
-            </h4>
-            <ul style={{ 
-              listStyle: 'none', 
-              margin: 0, 
-              padding: 0,
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '0.625rem',
-            }}>
-              <li>
-                <Link href="/products/castor-oil" style={{ 
-                  color: 'rgba(255, 255, 255, 0.75)', 
-                  fontSize: '0.875rem',
-                  textDecoration: 'none',
-                  transition: 'color 150ms ease',
-                }} className="hover:text-white">
-                  Castor Oil
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/castor-seed" style={{ 
-                  color: 'rgba(255, 255, 255, 0.75)', 
-                  fontSize: '0.875rem',
-                  textDecoration: 'none',
-                  transition: 'color 150ms ease',
-                }} className="hover:text-white">
-                  Castor Seed
-                </Link>
-              </li>
-              <li>
-                <Link href="/products" style={{ 
-                  color: 'rgba(255, 255, 255, 0.75)', 
-                  fontSize: '0.875rem',
-                  textDecoration: 'none',
-                  transition: 'color 150ms ease',
-                }} className="hover:text-white">
-                  All Products
-                </Link>
-              </li>
+            <h6 className="text-sm font-semibold text-white mb-4 tracking-wide font-sans">Products</h6>
+            <ul className="space-y-3">
+              {[
+                { label: 'Castor Oil', href: '/products/castor-oil' },
+                { label: 'Castor Seed', href: '/products/castor-seed' },
+                { label: 'All Products', href: '/products' },
+              ].map(link => (
+                <li key={link.href}>
+                  <Link href={link.href}
+                    className="text-sm text-white/55 hover:text-white transition-colors duration-200 py-1 block">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
-          {/* Column 3 - Company */}
           <div>
-            <h4 style={{ 
-              color: '#ffffff',
-              margin: '0 0 1.25rem 0',
-              fontSize: '1rem',
-              fontWeight: 600,
-            }}>
-              Company
-            </h4>
-            <ul style={{ 
-              listStyle: 'none', 
-              margin: 0, 
-              padding: 0,
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '0.625rem',
-            }}>
-              <li>
-                <Link href="/about" style={{ 
-                  color: 'rgba(255, 255, 255, 0.75)', 
-                  fontSize: '0.875rem',
-                  textDecoration: 'none',
-                  transition: 'color 150ms ease',
-                }} className="hover:text-white">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/manufacturing-quality" style={{ 
-                  color: 'rgba(255, 255, 255, 0.75)', 
-                  fontSize: '0.875rem',
-                  textDecoration: 'none',
-                  transition: 'color 150ms ease',
-                }} className="hover:text-white">
-                  Manufacturing & Quality
-                </Link>
-              </li>
-              <li>
-                <Link href="/applications" style={{ 
-                  color: 'rgba(255, 255, 255, 0.75)', 
-                  fontSize: '0.875rem',
-                  textDecoration: 'none',
-                  transition: 'color 150ms ease',
-                }} className="hover:text-white">
-                  Applications
-                </Link>
-              </li>
-              <li>
-                <Link href="/sustainability" style={{ 
-                  color: 'rgba(255, 255, 255, 0.75)', 
-                  fontSize: '0.875rem',
-                  textDecoration: 'none',
-                  transition: 'color 150ms ease',
-                }} className="hover:text-white">
-                  Sustainability
-                </Link>
-              </li>
-              <li>
-                <Link href="/insights" style={{ 
-                  color: 'rgba(255, 255, 255, 0.75)', 
-                  fontSize: '0.875rem',
-                  textDecoration: 'none',
-                  transition: 'color 150ms ease',
-                }} className="hover:text-white">
-                  Insights
-                </Link>
-              </li>
+            <h6 className="text-sm font-semibold text-white mb-4 tracking-wide font-sans">Company</h6>
+            <ul className="space-y-3">
+              {[
+                { label: 'About Us', href: '/about' },
+                { label: 'Manufacturing & Quality', href: '/manufacturing-quality' },
+                { label: 'Applications', href: '/applications' },
+                { label: 'Sustainability', href: '/sustainability' },
+                { label: 'Insights', href: '/insights' },
+              ].map(link => (
+                <li key={link.href}>
+                  <Link href={link.href}
+                    className="text-sm text-white/55 hover:text-white transition-colors duration-200 py-1 block">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
-          {/* Column 4 - Contact */}
           <div>
-            <h4 style={{ 
-              color: '#ffffff',
-              margin: '0 0 1.25rem 0',
-              fontSize: '1rem',
-              fontWeight: 600,
-            }}>
-              Contact
-            </h4>
-            <div style={{ 
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '0.75rem',
-            }}>
-              <div>
-                <p style={{ 
-                  color: 'rgba(255, 255, 255, 0.6)', 
-                  fontSize: '0.75rem',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.05em',
-                  margin: '0 0 0.25rem 0',
-                }}>
-                  Phone
-                </p>
-                <a href="tel:+918866099050" style={{ 
-                  color: 'rgba(255, 255, 255, 0.9)', 
-                  fontSize: '0.9375rem',
-                  textDecoration: 'none',
-                  fontWeight: '500',
-                }}>
+            <h6 className="text-sm font-semibold text-white mb-4 tracking-wide font-sans">Contact</h6>
+            <ul className="space-y-4">
+              <li>
+                <a href="tel:+918866099050"
+                  className="flex items-start gap-3 text-sm text-white/55 hover:text-white transition-colors py-1">
+                  <Phone size={15} className="flex-shrink-0 mt-0.5 text-[#C8960C]" />
                   +91 88660 99050
                 </a>
-              </div>
-              <div>
-                <p style={{ 
-                  color: 'rgba(255, 255, 255, 0.6)', 
-                  fontSize: '0.75rem',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.05em',
-                  margin: '0 0 0.25rem 0',
-                }}>
-                  Email
-                </p>
-                <a href="mailto:parinaytrade@gmail.com" style={{ 
-                  color: 'rgba(255, 255, 255, 0.9)', 
-                  fontSize: '0.9375rem',
-                  textDecoration: 'none',
-                  fontWeight: '500',
-                }}>
+              </li>
+              <li>
+                <a href="mailto:parinaytrade@gmail.com"
+                  className="flex items-start gap-3 text-sm text-white/55 hover:text-white transition-colors py-1 break-all">
+                  <Mail size={15} className="flex-shrink-0 mt-0.5 text-[#C8960C]" />
                   parinaytrade@gmail.com
                 </a>
-              </div>
-              <div style={{ marginTop: '0.5rem' }}>
-                <Link href="/contact" style={{ 
-                  display: 'inline-block',
-                  padding: '0.625rem 1.25rem',
-                  backgroundColor: '#1a5a3c',
-                  color: '#ffffff',
-                  fontSize: '0.875rem',
-                  fontWeight: '500',
-                  textDecoration: 'none',
-                  borderRadius: '4px',
-                  transition: 'background-color 150ms ease',
-                }} className="hover:bg-brand-green-light">
-                  Send Inquiry
-                </Link>
-              </div>
-            </div>
+              </li>
+              <li className="flex items-start gap-3 text-sm text-white/55">
+                <MapPin size={15} className="flex-shrink-0 mt-0.5 text-[#C8960C]" />
+                <span className="leading-relaxed">
+                  114, 1st/F, Shri Ghantakarna Mall, Near Ghantakarna Market,
+                  Sarangpur, Ahmedabad, Gujarat – 380001, India
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
 
-        {/* Footer Divider */}
-        <div style={{ 
-          borderTop: '1px solid rgba(255, 255, 255, 0.1)',
-          paddingTop: '1.5rem',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-        }}>
-          {/* Copyright */}
-          <p style={{ 
-            color: 'rgba(255, 255, 255, 0.6)',
-            fontSize: '0.875rem',
-            margin: 0,
-          }}>
+        <div className="mt-10 sm:mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3">
+          <p className="text-xs text-white/30 text-center sm:text-left">
             © {currentYear} Parinay Oils. All rights reserved.
           </p>
-
-          {/* Attribution */}
-          <p style={{ 
-            color: 'rgba(255, 255, 255, 0.4)',
-            fontSize: '0.75rem',
-            margin: 0,
-          }}>
+          <p className="text-xs text-white/30 text-center sm:text-right">
             Created with ❤️ by Prism-IQ
           </p>
         </div>
       </div>
     </footer>
-  );
+  )
 }

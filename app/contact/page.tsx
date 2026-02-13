@@ -5,60 +5,22 @@ import InquiryForm from './InquiryForm';
 export default function ContactPage() {
   return (
     <>
-      {/* SECTION 1 — CONTACT HEADER */}
-      {/* Background: Brand Green */}
-      <section className="master-section bg-section-brand">
-        <div className="master-container">
-          <div className="master-grid">
-            {/* Visual Column */}
-            <div className="master-visual" style={{ minHeight: '400px' }}>
-              <Image
-                src="/facility/warehouse.jpg"
-                alt="Parinay Oils operations"
-                fill
-                style={{ objectFit: 'cover' }}
-              />
-            </div>
-            {/* Content Column */}
-            <div className="master-content">
-              {/* Breadcrumb */}
-              <nav style={{ marginBottom: '1.5rem', fontSize: '0.875rem', opacity: 0.8 }}>
-                <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>Home</Link>
-                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
-                <span>Contact Us</span>
-              </nav>
-
-              <h1 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>
-                Contact Us
-              </h1>
-              
-              <p style={{ fontSize: '1.125rem', lineHeight: '1.8', marginBottom: '2rem' }}>
-                For product information, sourcing details, or business-related questions, please contact Parinay Oils through the official inquiry channel.
-              </p>
-
-              {/* Contact Details Card */}
-              <div className="info-card">
-                <div style={{ display: 'grid', gap: '1rem' }}>
-                  <div>
-                    <p style={{ fontSize: '0.75rem', opacity: 0.7, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.25rem' }}>
-                      Phone
-                    </p>
-                    <a href="tel:+918866099050" style={{ color: '#ffffff', fontSize: '1.125rem', fontWeight: '500', textDecoration: 'none' }}>
-                      +91 88660 99050
-                    </a>
-                  </div>
-                  <div>
-                    <p style={{ fontSize: '0.75rem', opacity: 0.7, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.25rem' }}>
-                      Email
-                    </p>
-                    <a href="mailto:parinaytrade@gmail.com" style={{ color: '#ffffff', fontSize: '1.125rem', fontWeight: '500', textDecoration: 'none' }}>
-                      parinaytrade@gmail.com
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      {/* SECTION 1 — HERO BANNER */}
+      <section className="relative flex items-center justify-center min-h-[40vh] sm:min-h-[45vh] overflow-hidden" style={{ paddingTop: '72px' }}>
+        <div className="absolute inset-0 z-0">
+          <Image src="/facility/warehouse.jpg" alt="Parinay Oils operations" fill className="object-cover" />
+          <div className="absolute inset-0 bg-black/55" />
+        </div>
+        <div className="relative z-10 text-center px-4 sm:px-6 py-12 sm:py-16 max-w-[800px] mx-auto">
+          <nav className="mb-3 sm:mb-4 text-sm text-white/80">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span className="mx-2">&gt;</span>
+            <span>Contact Us</span>
+          </nav>
+          <h1 className="text-white mb-3 sm:mb-4">Contact Us</h1>
+          <p className="text-white/80 text-sm sm:text-base max-w-[480px] mx-auto">
+            For product information, sourcing details, or business-related questions, please contact Parinay Oils through the official inquiry channel.
+          </p>
         </div>
       </section>
 
@@ -66,7 +28,7 @@ export default function ContactPage() {
       {/* Background: Light Neutral */}
       <section className="master-section bg-section-light">
         <div className="master-container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem' }}>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
             {/* Address */}
             <div>
               <h2 style={{ fontSize: '1.75rem', marginBottom: '1.5rem', color: '#0f3d28' }}>
@@ -139,7 +101,7 @@ export default function ContactPage() {
       {/* Background: Brand Green */}
       <section className="master-section bg-section-brand">
         <div className="master-container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '4rem', alignItems: 'start' }}>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* Left - Form Introduction */}
             <div>
               <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>
@@ -169,12 +131,7 @@ export default function ContactPage() {
       {/* Background: Light Neutral */}
       <section className="master-section bg-section-light" style={{ padding: '3rem 0' }}>
         <div className="master-container">
-          <div style={{ 
-            display: 'flex', 
-            alignItems: 'center', 
-            justifyContent: 'space-between',
-            gap: '2rem'
-          }}>
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
             <div>
               <h3 style={{ fontSize: '1.25rem', marginBottom: '0.5rem', color: '#0f3d28' }}>
                 Looking for Product Information?
@@ -184,10 +141,10 @@ export default function ContactPage() {
               </p>
             </div>
             <div style={{ display: 'flex', gap: '1rem' }}>
-              <Link href="/products/castor-oil" className="btn-secondary">
+              <Link href="/products/castor-oil" className="btn btn-outline">
                 Castor Oil
               </Link>
-              <Link href="/products/castor-seed" className="btn-secondary">
+              <Link href="/products/castor-seed" className="btn btn-outline">
                 Castor Seed
               </Link>
             </div>

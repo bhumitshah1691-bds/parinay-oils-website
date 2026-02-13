@@ -1,15 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import ClientLayout from './ClientLayout'
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-})
 
 export const metadata: Metadata = {
   title: 'Parinay Oils',
@@ -22,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en">
       <body>
         <ClientLayout>
           <Header />
@@ -31,6 +24,19 @@ export default function RootLayout({
           </main>
           <Footer />
         </ClientLayout>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener('DOMContentLoaded', function() {
+                const observer = new IntersectionObserver(
+                  entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+                  { threshold: 0.1 }
+                );
+                document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+              });
+            `,
+          }}
+        />
       </body>
     </html>
   )

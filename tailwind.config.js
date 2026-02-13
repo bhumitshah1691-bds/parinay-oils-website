@@ -3,50 +3,35 @@ module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    // Desktop-first breakpoints (max-width)
     screens: {
-      '2xl': { max: '1535px' },
-      'xl': { max: '1279px' },
-      'lg': { max: '1023px' },
-      'md': { max: '767px' },
-      'sm': { max: '639px' },
+      'xs': '400px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
     },
     extend: {
       colors: {
-        // Brand Color System (Phase 12)
         brand: {
-          green: '#1a5a3c',        // Deep Industrial Green - primary buttons, accents
-          'green-dark': '#0f3d28', // Dark Forest Green - headings, footer
-          'green-light': '#2d7a54', // Lighter green for hover states
-        },
-        // Section Background Colors - Alternating System
-        section: {
-          'brand-green': '#1a5a3c',      // Brand green sections
-          'light-neutral': '#f5f3ef',    // Warm light grey / light green
-          'white': '#ffffff',            // White breathing sections
-          'dark': '#0f3d28',             // Footer dark
-        },
-        neutral: {
-          'off-white': '#f8f7f4',   // Warm off-white - main backgrounds
-          'light-green': '#f5f7f5', // Very light green-tinted - section framing
-          'warm-grey': '#f5f3ef',   // Warm grey for sections
+          green: '#2D6A2F',
+          'green-light': '#4CAF50',
+          gold: '#C8960C',
+          earth: '#6B4C2A',
+          cream: '#F4F1EB',
+          dark: '#1A2E1A',
         },
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
+        display: ['Playfair Display', 'Georgia', 'serif'],
+        sans: ['DM Sans', 'system-ui', 'sans-serif'],
       },
-      fontSize: {
-        // Typography scale aligned with globals.css
-        'heading-1': ['2.25rem', { lineHeight: '1.3', letterSpacing: '-0.01em', fontWeight: '600' }],
-        'heading-2': ['1.5rem', { lineHeight: '1.3', letterSpacing: '-0.01em', fontWeight: '600' }],
-        'heading-3': ['1.25rem', { lineHeight: '1.3', letterSpacing: '-0.01em', fontWeight: '600' }],
-        'body': ['1rem', { lineHeight: '1.7' }],
-        'small': ['0.875rem', { lineHeight: '1.5' }],
-      },
-      maxWidth: {
-        'container': '1280px',
+      borderRadius: {
+        '2xl': '16px',
+        '3xl': '24px',
       },
     },
   },

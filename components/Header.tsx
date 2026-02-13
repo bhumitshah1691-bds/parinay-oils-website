@@ -1,7 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Menu, X } from 'lucide-react'
 
@@ -55,16 +54,13 @@ export default function Header() {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navBg}`}>
         <div className="w-full max-w-[1200px] mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-[72px]">
 
-          <Link href="/" className="flex-shrink-0 flex items-center" style={{ minWidth: 0 }}>
-            <Image
-              src="/raw_assets/logos/logo-primary.png"
-              alt="Parinay Oils"
-              width={110}
-              height={36}
-              className="h-9 md:h-10 w-auto object-contain"
-              style={{ filter: isTransparent ? 'brightness(0) invert(1)' : 'none', transition: 'filter 0.3s' }}
-              priority
-            />
+          <Link
+            href="/"
+            className={`flex-shrink-0 font-display font-semibold text-lg md:text-xl tracking-tight transition-colors duration-300 ${
+              isTransparent ? 'text-white hover:text-white/90' : 'text-[#1A1A1A] hover:text-[#2D6A2F]'
+            }`}
+          >
+            Parinay Oils
           </Link>
 
           <nav className="hidden md:flex items-center gap-7">
@@ -108,8 +104,9 @@ export default function Header() {
           />
           <div className="absolute right-0 top-0 h-full w-[min(280px,85vw)] bg-white shadow-2xl flex flex-col">
             <div className="flex items-center justify-between px-6 py-5 border-b border-[#E5E0D5]">
-              <Image src="/raw_assets/logos/logo-primary.png" alt="Parinay Oils" width={100} height={32}
-                className="h-8 w-auto" />
+              <Link href="/" onClick={() => setMenuOpen(false)} className="font-display font-semibold text-xl text-[#1A1A1A]">
+                Parinay Oils
+              </Link>
               <button
                 onClick={() => setMenuOpen(false)}
                 className="flex items-center justify-center w-10 h-10 rounded-lg text-[#1A1A1A] hover:bg-gray-100"

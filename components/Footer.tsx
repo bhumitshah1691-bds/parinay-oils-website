@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { Phone, Mail, MapPin } from 'lucide-react'
 
 export default function Footer() {
@@ -12,14 +11,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
 
           <div className="sm:col-span-2 lg:col-span-1">
-            <Image
-              src="/raw_assets/logos/logo-primary.png"
-              alt="Parinay Oils"
-              width={120}
-              height={40}
-              className="mb-4 opacity-90 h-9 w-auto"
-              style={{ filter: 'brightness(0) invert(1)' }}
-            />
+            <Link href="/" className="inline-block font-display font-semibold text-xl text-white mb-4 hover:text-white/90 transition-colors">
+              Parinay Oils
+            </Link>
             <p className="text-sm leading-relaxed mb-2 text-white/50 max-w-[280px]">
               Manufacturers and Suppliers of Castor Oil and Castor Seed
             </p>

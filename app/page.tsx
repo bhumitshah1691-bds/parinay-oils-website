@@ -39,7 +39,24 @@ const products = [
   },
 ]
 
-const proofPoints = ['Process-Controlled Manufacturing', 'Documentation on Request', 'Export-Oriented Supply']
+const leaders = [
+  {
+    image: '/home/paridhi-portrait.jpg',
+    alt: 'Paridhi Singh Solanki, Founder and Managing Director of Parinay Oils',
+    position: '50% 20%',
+    role: 'Founder & Managing Director',
+    name: 'Paridhi Singh Solanki',
+  },
+  {
+    image: '/raw_assets/company/vinay.jpg.jpeg',
+    alt: 'Vinay Dubey, Director of Parinay Oils',
+    position: '45% 50%',
+    role: 'Director',
+    name: 'Vinay Dubey',
+  },
+]
+
+const proofPoints =['Process-Controlled Manufacturing', 'Documentation on Request', 'Export-Oriented Supply']
 
 const industries = [
   { icon: Factory, label: 'Industrial Manufacturing' },
@@ -277,48 +294,32 @@ export default function HomePage() {
           </h2>
 
           <div className={s.leaderGrid}>
-            <div className={s.frameWrap}>
-              <div className={`${s.frame} ${s.portrait}`} data-reveal="clip">
-                <Image
-                  src="/home/paridhi-portrait.jpg"
-                  alt="Paridhi Singh Solanki, Founder and Managing Director of Parinay Oils"
-                  fill
-                  sizes="(min-width: 1024px) 520px, 92vw"
-                  className={s.cover}
-                  style={{ objectPosition: '50% 20%' }}
-                />
-              </div>
-            </div>
-
-            <div className={s.leaderText}>
-              <div data-reveal="up">
-                <p className={s.role}>Founder &amp; Managing Director</p>
-                <h3 className={s.leaderName}>Paridhi Singh Solanki</h3>
-              </div>
-
-              <div className={s.colleague} data-reveal="up">
-                <div className={s.colleaguePhoto}>
-                  <Image
-                    src="/raw_assets/company/vinay.jpg.jpeg"
-                    alt="Vinay Dubey, Director of Parinay Oils"
-                    fill
-                    sizes="128px"
-                    className={s.cover}
-                    style={{ objectPosition: '45% 30%' }}
-                  />
+            {leaders.map(person => (
+              <figure key={person.name} className={s.leader}>
+                <div className={s.frameWrap}>
+                  <div className={`${s.frame} ${s.portrait}`} data-reveal="clip">
+                    <Image
+                      src={person.image}
+                      alt={person.alt}
+                      fill
+                      sizes="(min-width: 768px) 440px, 92vw"
+                      className={s.cover}
+                      style={{ objectPosition: person.position }}
+                    />
+                  </div>
                 </div>
-                <div>
-                  <p className={s.role}>Director</p>
-                  <h3 className={s.colleagueName}>Vinay Dubey</h3>
-                </div>
-              </div>
+                <figcaption className={s.leaderCaption} data-reveal="up">
+                  <p className={s.role}>{person.role}</p>
+                  <h3 className={s.leaderName}>{person.name}</h3>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
 
-              <div data-reveal="up">
-                <Link href="/about" className={`${s.btn} ${s.btnDark}`}>
-                  Learn About Our Company <ArrowRight size={18} aria-hidden="true" />
-                </Link>
-              </div>
-            </div>
+          <div className={s.centerAction} data-reveal="up">
+            <Link href="/about" className={`${s.btn} ${s.btnDark}`}>
+              Learn About Our Company <ArrowRight size={18} aria-hidden="true" />
+            </Link>
           </div>
         </div>
       </section>

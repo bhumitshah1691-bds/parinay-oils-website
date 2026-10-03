@@ -582,17 +582,24 @@
 }
 
 /* ── Leadership ──────────────────────────────────────────── */
+/* Both portraits share one frame size and caption style. */
 .leaderGrid {
   display: grid;
-  gap: 72px;
-  margin-top: clamp(48px, 7vw, 88px);
+  gap: 64px;
+  max-width: 960px;
+  margin: clamp(48px, 7vw, 88px) auto 0;
 }
-.leaderGrid > .frameWrap { max-width: 520px; margin-right: 12px; }
+@media (min-width: 768px) {
+  .leaderGrid { grid-template-columns: 1fr 1fr; gap: 56px; }
+}
 @media (min-width: 1024px) {
-  .leaderGrid { grid-template-columns: 5fr 6fr; gap: 112px; align-items: end; }
-  .leaderGrid > .frameWrap { margin-right: 24px; }
+  .leaderGrid { gap: 96px; }
 }
-.leaderText { display: flex; flex-direction: column; gap: 48px; }
+.leader { margin: 0 12px 0 0; }
+@media (min-width: 1024px) {
+  .leader { margin-right: 24px; }
+}
+.leaderCaption { margin-top: 40px; }
 .role {
   font-size: 0.72rem;
   font-weight: 600;
@@ -601,41 +608,12 @@
   color: var(--gold-deep);
 }
 .leaderName {
-  margin-top: 14px;
+  margin-top: 12px;
   font-family: var(--display);
   font-weight: 600;
-  font-size: clamp(2.3rem, 5vw, 4.25rem);
-  line-height: 1.02;
-  letter-spacing: -0.035em;
-  color: var(--forest);
-}
-.colleague {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  padding: 28px 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-.colleaguePhoto {
-  position: relative;
-  flex: none;
-  width: 104px;
-  height: 128px;
-  overflow: hidden;
-  border-radius: 3px;
-  background: var(--sand);
-}
-@media (min-width: 640px) {
-  .colleaguePhoto { width: 128px; height: 156px; }
-}
-.colleagueName {
-  margin-top: 10px;
-  font-family: var(--display);
-  font-weight: 600;
-  font-size: clamp(1.6rem, 2.6vw, 2.1rem);
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+  font-size: clamp(1.9rem, 3.2vw, 2.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
   color: var(--forest);
 }
 
